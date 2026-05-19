@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [slock.ai](https://slock.ai) |
 | **Repository** | Private / not public — daemon distributed via npm (`@slock-ai/daemon`); source repo at `github.com/botiverse/slock` appears unlisted |
-| **Status** | `Active` — npm v0.49.0 published 2026-05-19; actively shipping |
+| **Status** | `Active` — npm v0.50.0 published 2026-05-19; actively shipping |
 | **Openness** | `Freemium` — core platform likely closed-source; daemon distributed as npm package |
 | **Deployment** | `Hybrid` — agent execution is local-first (daemon on user machine); coordination channel is cloud-hosted (Botiverse) |
 | **First release** | 2026-04-25 (earliest indexed publication date) |
-| **Last release / commit** | 2026-05-19 (npm v0.49.0) |
+| **Last release / commit** | 2026-05-19 (npm v0.50.0) |
 | **Language / Stack** | Node.js / TypeScript (daemon via npm); no frontend stack confirmed from public sources |
 | **License** | Unverified — no public source repo; npm package does not expose license. Botiverse's other OSS repos use Apache-2.0/MIT. |
 
@@ -35,7 +35,7 @@ Slock is a real-time collaboration platform built around a Slack-like metaphor w
 ## Data & Storage Model
 
 - **Primary store**: Split — agent state is local (`MEMORY.md` on user's machine); message history is cloud-hosted (Botiverse servers)
-- **Data portability**: `MEMORY.md` is a local, human-readable Markdown file — fully portable; message history is cloud-locked with 30-day retention on the free tier
+- **Data portability**: `MEMORY.md` is a local, human-readable Markdown file — fully portable; message history is cloud-locked (retention policy unverified)
 - **Offline capability**: Agent daemon runs locally; coordination channel requires cloud connectivity — not fully offline-capable
 - **Vendor lock-in risk**: **Medium** — agent state (MEMORY.md) is portable, but conversation history and server infrastructure depend on Botiverse; no documented export path for message history
 
@@ -43,10 +43,10 @@ Slock is a real-time collaboration platform built around a Slack-like metaphor w
 
 | Tier | Price | Limits |
 |------|-------|--------|
-| Free | $0 | 2 computers, 5 agents, 5 channels, 30-day message history |
+| Free | $0 | Unverified — specific limits not confirmed in public sources |
 | Paid tiers | Unverified | Not publicly indexed as of 2026-05-19 |
 
-*Paid tier pricing not found in public sources. Searched: slock.ai, aitoolhub.net, codepick.dev.*
+*Free tier limits and paid tier pricing not confirmed in slock.ai, Terms, Privacy Policy, CodePick, or any indexed source. Searched: slock.ai, aitoolhub.net, codepick.dev.*
 
 ## Ecosystem & Integrations
 
@@ -65,7 +65,7 @@ Slock is a real-time collaboration platform built around a Slack-like metaphor w
 
 | Dimension | Slock | GitIM |
 |-----------|-------|-------|
-| Data ownership | Agent memory is local (MEMORY.md); message history is on Botiverse cloud with 30-day free-tier retention | Git repo — 100% user-owned; no third-party holds coordination state |
+| Data ownership | Agent memory is local (MEMORY.md); message history is on Botiverse cloud (retention policy unverified) | Git repo — 100% user-owned; no third-party holds coordination state |
 | Agent coordination | Messaging-based: channels, @mentions, Task Claim protocol enforced by cloud layer | Git commits as coordination events; async, append-only, auditable; conflict resolution via Git semantics |
 | Offline / local-first | Daemon executes locally; coordination channel requires cloud connectivity | Fully offline-capable; Git works without network until push/sync |
 | Openness | Likely closed-source core; daemon distributed as npm package without public source | Git-native; coordination layer is the Git protocol itself (inherently open) |
