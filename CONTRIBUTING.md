@@ -25,6 +25,34 @@ Find the right section(s) in the Category Index and add your entry:
 
 Also add a row to the Products table at the bottom of README.md.
 
+### Keep product pages clean
+
+A product page is **reference material for readers**, not a research log. Write for someone evaluating the product, not for maintainers auditing how the page was produced.
+
+**Do:**
+
+- State facts in Overview and body sections; use `Unknown` in table cells when a field is not publicly documented.
+- Put primary sources in **References** as normal links (homepage, docs, official social accounts).
+- Keep the vs GitIM comparison honest and specific.
+
+**Do not:**
+
+- Add a maintainer footer (`Page maintained by …`, `Last verified`, Phase/batch labels).
+- Paste internal workflow text (card IDs, spelling-correction stories, “Phase 1 peer”, sponsor nomination narratives).
+- End References with **“Unverified / not found”** bullet lists or search diaries — if something is unknown, say so once in the relevant section or Overview field, not as a dump of failed searches.
+
+**Bad example (process leakage):**
+
+```markdown
+**Spelling note:** Sponsor corrected Cumera → Cumora (card `20260519-032841-e10`) …
+
+## References
+…
+**Unverified / not found:** public GitHub, npm package, HN thread …
+```
+
+**Good example:** Overview row `**License** | Unknown — no public source repo found` and References limited to links you actually used.
+
 ### 3. Open a PR
 
 - **Title**: `add: Product Name`

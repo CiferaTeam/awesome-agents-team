@@ -52,19 +52,19 @@ Products with a 📄 link have a dedicated deep-dive page in [`products/`](produ
 
 > Runs primarily on your machine. Data stays local by default.
 
-<!-- products go here in Phase 1 -->
+- [Niuma AI (牛马AI)](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default.
 
 #### Cloud-hosted
 
 > Primary value delivered through cloud infrastructure.
 
-<!-- products go here in Phase 1 -->
+- [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack.
 
 #### Hybrid
 
 > Meaningful local component + cloud sync or orchestration.
 
-<!-- products go here in Phase 1 -->
+- [Multica](products/multica.md) — Open-source task board: local agent daemon, optional self-hosted server, Skills library across coding agents.
 
 ---
 
@@ -80,13 +80,13 @@ Products with a 📄 link have a dedicated deep-dive page in [`products/`](produ
 
 > Team communication with AI participants as first-class members.
 
-<!-- products go here in Phase 1 -->
+- [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud.
 
 #### Project & Task Management
 
 > Issue tracking, sprint planning, or workflow management with AI integration.
 
-<!-- products go here in Phase 1 -->
+- [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows.
 
 #### Development Tooling
 
@@ -146,7 +146,7 @@ Products with a 📄 link have a dedicated deep-dive page in [`products/`](produ
 
 > Multiple independent agent processes coordinating.
 
-<!-- products go here in Phase 1 -->
+- [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions.
 
 #### Human-in-the-loop
 
@@ -158,11 +158,16 @@ Products with a 📄 link have a dedicated deep-dive page in [`products/`](produ
 
 ## Products
 
-> Filled in Phase 1. See [`products/`](products/) for deep-dive pages.
+> See [`products/`](products/) for deep-dive pages.
 
 | Product | Deployment | Status | Use Case | Data Model | Deep Dive |
 |---------|-----------|--------|----------|------------|-----------|
-| _(Phase 1)_ | | | | | |
+| [Multica](products/multica.md) | Hybrid | Active | Project & task management | PostgreSQL (self-host or cloud) | 📄 |
+| [Slock](products/slock.md) | Hybrid | Active | Chat collaboration | Local agent state + cloud messages | 📄 |
+| [Bloome](products/bloome.md) | Cloud | Active / Beta | Consumer job search | Cloud account & profile | 📄 |
+| [Cumora](products/cumora.md) | Hybrid | Active (preview) | Chat collaboration | Local desktop + synced workspace | 📄 |
+| [Niuma AI](products/niuma.md) | Local-first | Active | Local productivity & orchestration | On-device storage | 📄 |
+| [Helio](products/helio.md) | Cloud | Active | AI-native team workspace | Cloud platform | 📄 |
 
 ---
 
