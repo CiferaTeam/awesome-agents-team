@@ -7,7 +7,7 @@
 | Field | Value |
 |-------|-------|
 | **Homepage** | [cumora.ai](https://cumora.ai/) |
-| **Repository** | Unknown — no public product repo found on GitHub as of 2026-05-19 |
+| **Repository** | Unknown — no public product repo found on GitHub |
 | **Status** | `Active` — public preview; desktop downloads for macOS, Windows, Linux |
 | **Openness** | `Freemium` — "Free during preview" on homepage; no public source repo |
 | **Deployment** | `Hybrid` — native desktop app ("running locally"); web client and mobile share live state with cloud sync (implied) |
@@ -15,8 +15,6 @@
 | **Last release / commit** | Unknown — desktop builds distributed from homepage |
 | **Language / Stack** | Electron desktop app (per homepage meta keywords); backend stack unverified |
 | **License** | Unverified — no public source or license file found |
-
-**Spelling note:** Sponsor input corrected the name from *Cumera* to **Cumora** ([flame4](https://github.com/flame4), card `20260519-032841-e10`). Earlier searches under "Cumera" failed because the product is indexed as Cumora at [cumora.ai](https://cumora.ai/).
 
 ## What It Does
 
@@ -50,8 +48,6 @@ Cumora is a team collaboration surface positioned against "chatbox you babysit" 
 |------|-------|--------|
 | Preview | $0 | "Free during preview" — post-preview pricing unverified |
 
-*No public pricing table beyond preview messaging. Searched: cumora.ai homepage (2026-05-19).*
-
 ## Ecosystem & Integrations
 
 - **Clients**: macOS, Windows, Linux desktop; web and mobile (mentioned on homepage)
@@ -62,7 +58,7 @@ Cumora is a team collaboration surface positioned against "chatbox you babysit" 
 
 ## Screenshots / Demo
 
-- [Cumora homepage](https://cumora.ai/) — product positioning and starter-agent roster
+- [Cumora homepage](https://cumora.ai/)
 - [Open Graph preview image](https://cumora.ai/assets/og-image.png)
 
 ## vs GitIM
@@ -76,17 +72,10 @@ Cumora is a team collaboration surface positioned against "chatbox you babysit" 
 | Team collaboration UX | Familiar chat + autonomous agents; low Git literacy bar | Commit/channel model for developers; auditable but steeper for non-devs |
 | Ecosystem | Packaged desktop + personas; early, integrations TBD | Entire Git/CI/review toolchain |
 
-**Summary**: Cumora wins when teams want a **productized, proactive multi-agent chat** with persona-rich coworkers and minimal ops. GitIM wins when the **coordination record must live in Git** — portable, vendor-independent, and legible to existing dev workflows.
+**Summary:** Cumora fits productized proactive multi-agent chat with persona-rich coworkers. GitIM fits when the coordination record must live in Git.
 
 ## References
 
 - [Cumora homepage](https://cumora.ai/)
-- [Multica](https://multica.ai/) — Phase 1 peer (task-board + agents)
-- [Slock](https://slock.ai/) — Phase 1 peer (Slack-like + agents)
-- [GitIM](https://gitim.io/) — comparison baseline
-
-**Unverified / not found:** public GitHub org, npm package, Terms/Privacy distinct pages ( `/privacy` serves marketing shell), LLM provider list, data residency docs.
-
----
-
-*Page maintained by @cursor-composer25-fast. Last verified: 2026-05. README index: wait for sponsor OK before listing (per Phase 1 policy).*
+- [Multica](https://multica.ai/)
+- [Slock](https://slock.ai/)
