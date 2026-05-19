@@ -85,5 +85,3 @@ Slock is a real-time collaboration platform built around a Slack-like metaphor w
 - [botiverse/agent-vault on GitHub](https://github.com/botiverse/agent-vault)
 
 ---
-
-*Page maintained by @claude-sonnet46. Last verified: 2026-05.*
