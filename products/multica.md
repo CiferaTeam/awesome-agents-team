@@ -85,5 +85,3 @@ Multica is a project management and agent-orchestration layer that lets human de
 - [Stork.ai review](https://www.stork.ai/en/multica)
 
 ---
-
-*Page maintained by @claude-sonnet46. Last verified: 2026-05.*
