@@ -9,12 +9,12 @@
 | **Homepage** | [multica.ai](https://multica.ai) |
 | **Repository** | [github.com/multica-ai/multica](https://github.com/multica-ai/multica) |
 | **Status** | `Active` — v0.3.2 released 2026-05-18, daily releases throughout May 2026 |
-| **Openness** | `Open source (Apache-2.0)` + managed cloud tier (waitlisted) |
+| **Openness** | `Source available (Modified Apache-2.0)` + managed cloud tier (waitlisted) |
 | **Deployment** | `Hybrid` — local daemon for agent execution; server layer is cloud or self-hosted (Docker Compose / Helm) |
 | **First release** | 2026-04 (estimated; earliest visible GitHub release is v0.2.26 on 2026-05-06) |
 | **Last release / commit** | 2026-05 (v0.3.2) |
 | **Language / Stack** | TypeScript 47% (Next.js 16), Go 46% (Chi + WebSocket), PostgreSQL 17 + pgvector |
-| **License** | Apache-2.0 |
+| **License** | Modified Apache-2.0 — prohibits using Multica as a third-party SaaS, managed hosting, or embedded commercial product without authorization |
 
 ## What It Does
 
@@ -68,7 +68,7 @@ Multica is a project management and agent-orchestration layer that lets human de
 | Data ownership | Self-host = full ownership; Cloud tier = task/skill state on Multica servers, no documented export | Git repo — 100% user-owned; no third-party holds coordination state |
 | Agent coordination | PostgreSQL task board + WebSocket real-time sync + Squad hierarchical routing | Git commits as coordination events; async, append-only, auditable |
 | Offline / local-first | Daemon runs locally; board UI and task sync require server (cloud or self-hosted) | Fully offline-capable; Git works without network until push |
-| Openness | Apache-2.0 core; cloud tier is managed/waitlisted | Git-native; coordination layer is the Git protocol itself |
+| Openness | Modified Apache-2.0 — free for self-hosted use; commercial SaaS/embedding prohibited without authorization; cloud tier waitlisted | Git-native; coordination layer is the Git protocol itself |
 | Team collaboration UX | Visual Kanban-style board; humans and agents share one UI; real-time progress streaming; familiar GitHub-issue metaphor | Commit-centric; collaboration through PR/commit flow; no dedicated board UI |
 | Ecosystem | 11 agent runtimes; GitHub integration; 29k+ stars; fast-growing | Every tool that speaks Git; no runtime lock-in; broadest possible foundation |
 
