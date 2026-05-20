@@ -8,19 +8,14 @@
 
 This is a **hybrid-depth** awesome list. The index below gives you a one-line summary of each tool. For key products, we maintain dedicated pages in [`products/`](products/) with structured analysis, and cross-cutting comparison tables in [`comparisons/`](comparisons/).
 
-**Maintainer note**: We are particularly interested in how these tools compare to [GitIM](https://gitim.io) — an agent collaboration system built on Git as the shared coordination layer. Entries include an explicit "vs GitIM" dimension.
-
 ---
 
 ## Contents
 
 - [How to Read This List](#how-to-read-this-list)
 - [Category Index](#category-index)
-  - [By Deployment Model](#by-deployment-model)
-  - [By Primary Use Case](#by-primary-use-case)
-  - [By Openness](#by-openness)
-  - [By Data & Storage Model](#by-data--storage-model)
-  - [By Agent Architecture](#by-agent-architecture)
+  - [Open Source](#open-source)
+  - [Closed Source](#closed-source)
 - [Products](#products)
 - [Comparisons](#comparisons)
 - [Contributing](#contributing)
@@ -32,127 +27,33 @@ This is a **hybrid-depth** awesome list. The index below gives you a one-line su
 Each product entry follows this format:
 
 ```
-**[Product Name](url)** — One-sentence positioning. `status` `deployment`
-> Key differentiator in one clause.
+**[Product Name](products/x.md)** — One-sentence positioning. `tag` `tag`
 ```
 
-Where:
-- `status` = `open-source` / `closed-source` / `freemium` / `commercial`
-- `deployment` = `local-first` / `cloud` / `hybrid`
+Common tags: `local-first` / `cloud` / `hybrid` / `open-source` / `freemium` / `git-based`
 
-Products with a 📄 link have a dedicated deep-dive page in [`products/`](products/).
+Products link to a dedicated deep-dive page in [`products/`](products/).
 
 ---
 
 ## Category Index
 
-### By Deployment Model
+### Open Source
 
-#### Local-first
+> Source code is publicly available under an OSI-approved or source-available license.
 
-> Runs primarily on your machine. Data stays local by default.
+- [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
+- [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 
-- [Niuma AI (牛马AI)](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default.
+### Closed Source
 
-#### Cloud-hosted
+> Source code is not publicly available.
 
-> Primary value delivered through cloud infrastructure.
-
-- [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack.
-
-#### Hybrid
-
-> Meaningful local component + cloud sync or orchestration.
-
-- [Multica](products/multica.md) — Open-source task board: local agent daemon, optional self-hosted server, Skills library across coding agents.
-
----
-
-### By Primary Use Case
-
-#### Multi-agent Orchestration
-
-> Tools focused on coordinating multiple AI agents toward a shared goal.
-
-<!-- products go here in Phase 1 -->
-
-#### Chat-based Collaboration
-
-> Team communication with AI participants as first-class members.
-
-- [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud.
-
-#### Project & Task Management
-
-> Issue tracking, sprint planning, or workflow management with AI integration.
-
-- [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows.
-
-#### Development Tooling
-
-> Code generation, review, or pair-programming focused.
-
-<!-- products go here in Phase 1 -->
-
----
-
-### By Openness
-
-#### Open Source
-
-<!-- products go here in Phase 1 -->
-
-#### Commercial / Closed Source
-
-<!-- products go here in Phase 1 -->
-
-#### Freemium
-
-<!-- products go here in Phase 1 -->
-
----
-
-### By Data & Storage Model
-
-#### Git-based
-
-> Git is the source of truth for coordination state, not just code.
-
-<!-- products go here in Phase 1 -->
-
-#### Local Files / SQLite
-
-<!-- products go here in Phase 1 -->
-
-#### Cloud Database (proprietary)
-
-<!-- products go here in Phase 1 -->
-
-#### Hybrid / Pluggable
-
-<!-- products go here in Phase 1 -->
-
----
-
-### By Agent Architecture
-
-#### Single agent + tools
-
-> One LLM call chain with access to external tools.
-
-<!-- products go here in Phase 1 -->
-
-#### Multi-agent (peer or hierarchical)
-
-> Multiple independent agent processes coordinating.
-
-- [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions.
-
-#### Human-in-the-loop
-
-> Architecturally requires human approval at defined checkpoints.
-
-<!-- products go here in Phase 1 -->
+- [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack. `cloud` `freemium`
+- [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
+- [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
+- [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
+- [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
 
 ---
 
@@ -160,14 +61,15 @@ Products with a 📄 link have a dedicated deep-dive page in [`products/`](produ
 
 > See [`products/`](products/) for deep-dive pages.
 
-| Product | Deployment | Status | Use Case | Data Model | Deep Dive |
-|---------|-----------|--------|----------|------------|-----------|
-| [Multica](products/multica.md) | Hybrid | Active | Project & task management | PostgreSQL (self-host or cloud) | 📄 |
-| [Slock](products/slock.md) | Hybrid | Active | Chat collaboration | Local agent state + cloud messages | 📄 |
-| [Bloome](products/bloome.md) | Cloud | Active / Beta | Consumer job search | Cloud account & profile | 📄 |
-| [Cumora](products/cumora.md) | Hybrid | Active (preview) | Chat collaboration | Local desktop + synced workspace | 📄 |
-| [Niuma AI](products/niuma.md) | Local-first | Active | Local productivity & orchestration | On-device storage | 📄 |
-| [Helio](products/helio.md) | Cloud | Active | AI-native team workspace | Cloud platform | 📄 |
+| Product | Openness | Deployment | Status | Use Case | Deep Dive |
+|---------|----------|-----------|--------|----------|-----------|
+| [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
+| [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
+| [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
+| [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
+| [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
+| [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
+| [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 
 ---
 
