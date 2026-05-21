@@ -74,22 +74,6 @@
 - [Demo video](https://example.com/demo)
 - [Screenshots](https://example.com/screenshots)
 
-## vs GitIM
-
-<!-- Honest comparison. GitIM is a Git-native agent coordination layer. -->
-<!-- Where does this product win? Where does GitIM win? Be specific. -->
-
-| Dimension | [Product Name] | GitIM |
-|-----------|---------------|-------|
-| Data ownership | ... | Git repo — you own it |
-| Agent coordination | ... | Git commits as coordination events |
-| Offline / local-first | ... | Yes, Git works offline |
-| Openness | ... | ... |
-| Team collaboration UX | ... | ... |
-| Ecosystem | ... | ... |
-
-**Summary**: [Product Name] wins when ___. GitIM wins when ___.
-
 ## References
 
 <!-- At least one link beyond the homepage. -->

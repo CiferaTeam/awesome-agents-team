@@ -61,19 +61,6 @@ Slock is a real-time collaboration platform built around a Slack-like metaphor w
 - [Slock homepage](https://slock.ai)
 - [CodePick review](https://codepick.dev/en/tool/slock/)
 
-## vs GitIM
-
-| Dimension | Slock | GitIM |
-|-----------|-------|-------|
-| Data ownership | Agent memory is local (MEMORY.md); message history is on Botiverse cloud (retention policy unverified) | Git repo — 100% user-owned; no third-party holds coordination state |
-| Agent coordination | Messaging-based: channels, @mentions, Task Claim protocol enforced by cloud layer | Git commits as coordination events; async, append-only, auditable; conflict resolution via Git semantics |
-| Offline / local-first | Daemon executes locally; coordination channel requires cloud connectivity | Fully offline-capable; Git works without network until push/sync |
-| Openness | Likely closed-source core; daemon distributed as npm package without public source | Git-native; coordination layer is the Git protocol itself (inherently open) |
-| Team collaboration UX | Slack-like channels immediately familiar to humans and agents alike; real-time threads; low conceptual barrier for non-developers | Commit-centric; familiar to developers, alien to non-technical stakeholders; asynchronous by nature |
-| Ecosystem | Early-stage; npm daemon, affiliated botiverse tools; no confirmed IDE or major service integrations | Every CI/CD system, code review tool, and developer workflow speaks Git; broadest possible integration surface |
-
-**Summary**: Slock wins when the team values UX legibility — the Slack metaphor is universally understood, and the Task Claim protocol is an elegant solution to multi-agent conflict without requiring Git literacy. GitIM wins when the coordination record needs to be the same artifact as the work (the Git repo), making it inherently auditable, portable, and vendor-independent without an additional server trust surface.
-
 ## References
 
 - [Slock Homepage](https://slock.ai/)

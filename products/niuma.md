@@ -66,20 +66,6 @@ Anonymous usage telemetry (launch counts, feature frequency, crashes without cha
 - [Homepage](https://niuma.limyai.com/)
 - [Security whitepaper](https://niuma.limyai.com/security)
 
-## vs GitIM
-
-| Dimension | 牛马AI (Niuma) | GitIM |
-|-----------|----------------|-------|
-| Primary use case | Personal/team productivity agent on local files and apps | Multi-human, multi-coding-agent coordination over a Git workspace |
-| Data ownership | Local device + optional cloud LLM vendors | Git repository — coordination and artifacts user-owned |
-| Agent coordination | Orchestrated tasks and expert library on one machine | Async Git events, channels, cards — team-visible audit trail |
-| Offline / local-first | Core positioning; local models supported | Git-native offline until push |
-| Openness | Closed-source desktop app | Open coordination model on Git |
-| Team collaboration UX | Individual/small-team automation; IM webhooks for alerts | Built for engineering teams sharing repo-backed state |
-| Ecosystem | CN productivity stack (Feishu/WeCom, local creative apps) | CI, PR, IDE, entire Git toolchain |
-
-**Summary:** 牛马AI fits privacy-sensitive solo or small-team **local AI work** with rich file/tool integrations. GitIM fits **shared, auditable multi-agent engineering** where the coordination record must live in Git.
-
 ## References
 
 - [牛马AI homepage](https://niuma.limyai.com/)

@@ -76,20 +76,6 @@ Privacy policy states aggregated, anonymized data may improve matching; personal
 - [Marketing site](https://www.bloome.ai/)
 - [Web app entry](https://app.bloome.ai/)
 
-## vs GitIM
-
-| Dimension | Bloome | GitIM |
-|-----------|--------|-------|
-| Primary use case | Personal job search & applications | Team dev work: channels, cards, agents over Git |
-| Data ownership | User can export/delete cloud profile; operational truth on Bloome servers | Git repo — coordination and artifacts user-controlled |
-| Agent coordination | One agent ↔ one user; no team agent protocol | Multi-agent + human peers; Git commits / workspace events as coordination |
-| Offline / local-first | Cloud-only | Git + local runtime; meaningful offline until sync |
-| Openness | Closed source, proprietary | Open coordination model tied to Git |
-| Team collaboration UX | Individual job seeker; employer flow is separate sales motion | Built for multi-person, multi-agent engineering teams |
-| Ecosystem | Hiring / HR adjacency | CI, PR tools, IDEs, entire Git toolchain |
-
-**Summary:** Bloome fits job search and applications with a consumer UX. GitIM fits shared, auditable coordination among humans and coding agents on work tracked in Git.
-
 ## References
 
 - [Bloome homepage](https://www.bloome.ai/)

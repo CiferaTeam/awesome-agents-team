@@ -61,19 +61,6 @@ Multica is a project management and agent-orchestration layer that lets human de
 - [Homepage demo](https://multica.ai)
 - [GitHub repo (includes screenshots in README)](https://github.com/multica-ai/multica)
 
-## vs GitIM
-
-| Dimension | Multica | GitIM |
-|-----------|---------|-------|
-| Data ownership | Self-host = full ownership; Cloud tier = task/skill state on Multica servers, no documented export | Git repo — 100% user-owned; no third-party holds coordination state |
-| Agent coordination | PostgreSQL task board + WebSocket real-time sync + Squad hierarchical routing | Git commits as coordination events; async, append-only, auditable |
-| Offline / local-first | Daemon runs locally; board UI and task sync require server (cloud or self-hosted) | Fully offline-capable; Git works without network until push |
-| Openness | Modified Apache-2.0 — free for self-hosted use; commercial SaaS/embedding prohibited without authorization; cloud tier waitlisted | Git-native; coordination layer is the Git protocol itself |
-| Team collaboration UX | Visual Kanban-style board; humans and agents share one UI; real-time progress streaming; familiar GitHub-issue metaphor | Commit-centric; collaboration through PR/commit flow; no dedicated board UI |
-| Ecosystem | 11 agent runtimes; GitHub integration; 29k+ stars; fast-growing | Every tool that speaks Git; no runtime lock-in; broadest possible foundation |
-
-**Summary**: Multica wins when your team wants a visual, real-time shared workspace where humans and agents coexist on the same board, and when Skill compounding across agent sessions is a priority. GitIM wins when data sovereignty is non-negotiable, the team is fully Git-literate, and you need coordination events that are inherently auditable, offline-capable, and vendor-independent.
-
 ## References
 
 - [multica-ai/multica on GitHub](https://github.com/multica-ai/multica)

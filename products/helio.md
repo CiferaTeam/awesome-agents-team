@@ -63,20 +63,6 @@ Contact: hello@helio.im
 - [Homepage](https://helio.im/) — product positioning, teammate demos, integration list
 - [Web app](https://app.helio.im/) — sign-up / login (content requires account)
 
-## vs GitIM
-
-| Dimension | Helio | GitIM |
-|-----------|-------|-------|
-| Primary use case | AI teammates embedded in team channels and task queues | Multi-human, multi-coding-agent coordination over a Git workspace |
-| Data ownership | Cloud platform — coordination state on Helio servers | Git repository — coordination and artifacts user-owned |
-| Agent coordination | Shared channels + task assignment; approval gates | Async Git events, channels, cards — commit-backed audit trail |
-| Offline / local-first | Cloud-only | Git-native offline until push |
-| Openness | Closed source, proprietary | Open coordination model tied to Git |
-| Team collaboration UX | Familiar chat-adjacent UX; works inside Slack/Teams via adapters | Commit/channel model for developers; steeper for non-devs |
-| Ecosystem | Dev tools (GitHub, Linear, Vercel) + chat platforms | CI, PR, IDE, entire Git toolchain |
-
-**Summary:** Helio fits teams that want AI embedded in their existing chat and task surfaces with minimal workflow change. GitIM fits teams where the coordination record must live in Git and be auditable across humans and coding agents.
-
 ## References
 
 - [Helio homepage](https://helio.im/)

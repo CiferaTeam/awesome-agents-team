@@ -61,19 +61,6 @@ Cumora is a team collaboration surface positioned against "chatbox you babysit" 
 - [Cumora homepage](https://cumora.ai/)
 - [Open Graph preview image](https://cumora.ai/assets/og-image.png)
 
-## vs GitIM
-
-| Dimension | Cumora | GitIM |
-|-----------|--------|-------|
-| Data ownership | Likely cloud workspace + local agent files; export path unknown | Git repo — coordination and artifacts user-owned |
-| Agent coordination | Realtime chat, proactive timers, whisper/Convene UX | Git commits / workspace events — async, append-only, auditable |
-| Offline / local-first | Desktop runs locally; team state syncs online | Git-native; meaningful offline until push |
-| Openness | Closed preview product; no public source | Open coordination model on Git |
-| Team collaboration UX | Familiar chat + autonomous agents; low Git literacy bar | Commit/channel model for developers; auditable but steeper for non-devs |
-| Ecosystem | Packaged desktop + personas; early, integrations TBD | Entire Git/CI/review toolchain |
-
-**Summary:** Cumora fits productized proactive multi-agent chat with persona-rich coworkers. GitIM fits when the coordination record must live in Git.
-
 ## References
 
 - [Cumora homepage](https://cumora.ai/)
