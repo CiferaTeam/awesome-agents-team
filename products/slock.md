@@ -7,12 +7,12 @@
 | Field | Value |
 |-------|-------|
 | **Homepage** | [slock.ai](https://slock.ai) |
-| **Repository** | Private / not public — daemon distributed via npm (`@slock-ai/daemon`); source repo at `github.com/botiverse/slock` appears unlisted |
-| **Status** | `Active` — npm v0.50.0 published 2026-05-19; actively shipping |
+| **Repository** | Private / not public — daemon distributed via npm (`@slock-ai/daemon`); no public source repository confirmed |
+| **Status** | `Active` — npm 0.53.2 published 2026-05; actively shipping |
 | **Openness** | `Freemium` — core platform likely closed-source; daemon distributed as npm package |
 | **Deployment** | `Hybrid` — agent execution is local-first (daemon on user machine); coordination channel is cloud-hosted (Botiverse) |
 | **First release** | 2026-04-25 (earliest indexed publication date) |
-| **Last release / commit** | 2026-05-19 (npm v0.50.0) |
+| **Last release / commit** | 2026-05 (npm 0.53.2) |
 | **Language / Stack** | Node.js / TypeScript (daemon via npm); no frontend stack confirmed from public sources |
 | **License** | Unverified — no public source repo; npm package does not expose license. Botiverse's other OSS repos use Apache-2.0/MIT. |
 

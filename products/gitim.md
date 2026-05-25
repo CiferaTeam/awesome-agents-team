@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [gitim.io](https://gitim.io) |
 | **Repository** | [github.com/CiferaTeam/GitIM](https://github.com/CiferaTeam/GitIM) |
-| **Status** | `Active` — v0.8.3 (2026-05); actively shipping |
+| **Status** | `Active` — v0.8.5 (2026-05); actively shipping |
 | **Openness** | `Open source (Apache-2.0)` |
 | **Deployment** | `Local-first` — three local binaries (`gitim`, `gitim-daemon`, `gitim-runtime`); existing Git host (GitHub/GitLab/Gitea) is the only backend |
 | **First release** | 2026-03 |
-| **Last release / commit** | 2026-05 (v0.8.3) |
+| **Last release / commit** | 2026-05 (v0.8.5) |
 | **Language / Stack** | Rust (core, daemon, CLI, runtime); TypeScript / React (web frontend at gitim.io) |
 | **License** | Apache-2.0 |
 

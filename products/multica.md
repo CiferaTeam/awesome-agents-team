@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [multica.ai](https://multica.ai) |
 | **Repository** | [github.com/multica-ai/multica](https://github.com/multica-ai/multica) |
-| **Status** | `Active` — v0.3.2 released 2026-05-18, daily releases throughout May 2026 |
+| **Status** | `Active` — v0.3.6 released 2026-05, daily releases throughout May 2026 |
 | **Openness** | `Source available (Modified Apache-2.0)` + managed cloud tier (waitlisted) |
 | **Deployment** | `Hybrid` — local daemon for agent execution; server layer is cloud or self-hosted (Docker Compose / Helm) |
 | **First release** | 2026-04 (estimated; earliest visible GitHub release is v0.2.26 on 2026-05-06) |
-| **Last release / commit** | 2026-05 (v0.3.2) |
+| **Last release / commit** | 2026-05 (v0.3.6) |
 | **Language / Stack** | TypeScript 47% (Next.js 16), Go 46% (Chi + WebSocket), PostgreSQL 17 + pgvector |
 | **License** | Modified Apache-2.0 — prohibits using Multica as a third-party SaaS, managed hosting, or embedded commercial product without authorization |
 
