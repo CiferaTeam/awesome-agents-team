@@ -100,8 +100,8 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
 | [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
 | [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
-| [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
+| [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
