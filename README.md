@@ -42,10 +42,13 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 
 > Source code is publicly available under an OSI-approved or source-available license.
 
+- [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
+- [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
+- [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 
 ### Closed Source
@@ -54,9 +57,12 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 
 - [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack. `cloud` `freemium`
 - [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
+- [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
+- [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
+- [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
 
 ---
 
@@ -66,16 +72,22 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 
 | Product | Openness | Deployment | Status | Use Case | Deep Dive |
 |---------|----------|-----------|--------|----------|-----------|
-| [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
-| [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
-| [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
-| [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
-| [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
+| [agency-agents](products/agency-agents.md) | Open source (MIT) | Local-first | Active | Agent personality library | 📄 |
 | [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
+| [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
+| [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
+| [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
+| [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
+| [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
+| [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
+| [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
+| [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
+| [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
+| [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 
 ---
 
@@ -96,7 +108,6 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 **Quick checklist**:
 - Use the product template at [`products/_template.md`](products/_template.md)
 - One product per PR
-- Fill in the "vs GitIM" section honestly — criticism is welcome
 
 ---
 
