@@ -65,6 +65,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
+- [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
 
 ---
@@ -92,6 +93,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
+| [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 | [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
 
