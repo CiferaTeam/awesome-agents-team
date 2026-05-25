@@ -46,6 +46,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
 - [Hermes](products/hermes.md) — Self-improving AI agent framework with closed learning loop: auto-generates and iterates skill documents from execution history. `self-hosted` `open-source`
+- [HiClaw](products/hiclaw.md) — Enterprise-grade multi-agent collaboration via Matrix rooms: Manager coordinates Workers with human visibility. `self-hosted` `open-source`
 - [Hive](products/hive.md) — Multi-agent harness for production AI with auto-generated execution graphs and self-healing. `self-hosted` `open-source`
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [Lingtai](products/lingtai.md) — Unix-style Agent OS: agents live in the filesystem and communicate by mailbox. `local-first` `open-source`
@@ -63,6 +64,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 > Source code is not publicly available.
 
 - [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack. `cloud` `freemium`
+- [COCO](products/coco.md) — Managed AI agent teams with open-source HxA Connect and Zylos ecosystem for human-agent collaboration. `cloud` `hybrid`
 - [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
 - [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
@@ -82,12 +84,14 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 |---------|----------|-----------|--------|----------|-----------|
 | [agency-agents](products/agency-agents.md) | Open source (MIT) | Local-first | Active | Agent personality library | 📄 |
 | [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
+| [COCO](products/coco.md) | Closed source | Cloud | Active | Managed AI agent teams | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
 | [Hermes](products/hermes.md) | Open source (MIT) | Self-hosted | Active | Self-improving agent framework | 📄 |
+| [HiClaw](products/hiclaw.md) | Open source (Apache-2.0) | Self-hosted | Active | Enterprise multi-agent collaboration | 📄 |
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
 | [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
