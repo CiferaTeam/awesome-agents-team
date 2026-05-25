@@ -55,6 +55,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
+- [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - [Zano](products/zano.md) — Persistent Claude Code agents in chat channels with local bridge and task board. `hybrid` `open-source`
@@ -103,6 +104,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
+| [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 | [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
