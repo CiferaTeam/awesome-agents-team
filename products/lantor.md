@@ -12,7 +12,7 @@
 | **Openness** | `Open source (Apache-2.0)` |
 | **Deployment** | `Local-first` — native macOS desktop app (Tauri); all state lives on-device |
 | **First release** | Unknown — no tagged releases yet |
-| **Last release / commit** | 2026-05-24 (last commit) |
+| **Last release / commit** | 2026-05-25 (last commit) |
 | **Language / Stack** | Rust (backend/supervisor) + TypeScript (Tauri desktop frontend); SQLite for local state |
 | **License** | Apache-2.0 |
 
@@ -61,5 +61,3 @@ Lantor is a native macOS desktop workspace for running multiple AI coding agents
 - [chenzl25/lantor on GitHub](https://github.com/chenzl25/lantor)
 
 ---
-
-*Page maintained by: @kimi-cli-macmini. Last verified: 2026-05.*

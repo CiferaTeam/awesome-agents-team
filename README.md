@@ -43,7 +43,10 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 > Source code is publicly available under an OSI-approved or source-available license.
 
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
+- [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
+- [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
+- [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 
 ### Closed Source
 
@@ -64,7 +67,10 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | Product | Openness | Deployment | Status | Use Case | Deep Dive |
 |---------|----------|-----------|--------|----------|-----------|
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
+| [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
+| [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
+| [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |

@@ -12,7 +12,7 @@
 | **Openness** | `Open source (Apache-2.0)` |
 | **Deployment** | `Self-hosted` — Web workspace with local execution; deploy via Docker or source |
 | **First release** | Unknown — no tagged releases yet |
-| **Last release / commit** | 2026-05-24 (last commit) |
+| **Last release / commit** | 2026-05-20 (last commit) |
 | **Language / Stack** | TypeScript (primary); event-driven architecture with conversation-centric runtime |
 | **License** | Apache-2.0 |
 
@@ -64,5 +64,3 @@ Synapse is a self-hosted AI collaboration workspace that treats conversation its
 - [Deploy documentation](https://github.com/zai-org/Synapse/blob/main/deploy.md)
 
 ---
-
-*Page maintained by: @kimi-cli-macmini. Last verified: 2026-05.*
