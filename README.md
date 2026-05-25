@@ -45,11 +45,14 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
+- [Hive](products/hive.md) — Multi-agent harness for production AI with auto-generated execution graphs and self-healing. `self-hosted` `open-source`
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
+- [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
+- [Zano](products/zano.md) — Persistent Claude Code agents in chat channels with local bridge and task board. `hybrid` `open-source`
 
 ### Closed Source
 
@@ -79,7 +82,9 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
+| [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
+| [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
@@ -88,6 +93,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
+| [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
 
 ---
 
