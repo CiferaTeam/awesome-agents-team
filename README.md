@@ -47,6 +47,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
 - [Hive](products/hive.md) — Multi-agent harness for production AI with auto-generated execution graphs and self-healing. `self-hosted` `open-source`
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
+- [Lingtai](products/lingtai.md) — Unix-style Agent OS: agents live in the filesystem and communicate by mailbox. `local-first` `open-source`
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
@@ -85,6 +86,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
+| [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
 | [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
