@@ -51,6 +51,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [Lingtai](products/lingtai.md) — Unix-style Agent OS: agents live in the filesystem and communicate by mailbox. `local-first` `open-source`
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
+- [Metaswarm](products/metaswarm.md) — Multi-agent orchestration framework for Claude Code / Gemini / Codex: 18 agents, parallel review gates, TDD enforcement, spec-driven development. `self-hosted` `open-source`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
@@ -100,6 +101,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
 | [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
+| [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
