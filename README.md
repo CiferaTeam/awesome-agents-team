@@ -71,6 +71,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
+- [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
 
@@ -104,6 +105,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
+| [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
