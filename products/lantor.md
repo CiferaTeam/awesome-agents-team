@@ -8,7 +8,7 @@
 |-------|-------|
 | **Homepage** | [github.com/chenzl25/lantor](https://github.com/chenzl25/lantor) |
 | **Repository** | [github.com/chenzl25/lantor](https://github.com/chenzl25/lantor) |
-| **Status** | `Active` — last commit 2026-05-24; early stage, actively developed |
+| **Status** | `Active` — last commit 2026-05-25; early stage, actively developed |
 | **Openness** | `Open source (Apache-2.0)` |
 | **Deployment** | `Local-first` — native macOS desktop app (Tauri); all state lives on-device |
 | **First release** | Unknown — no tagged releases yet |

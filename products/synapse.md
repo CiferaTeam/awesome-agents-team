@@ -8,7 +8,7 @@
 |-------|-------|
 | **Homepage** | [github.com/zai-org/Synapse](https://github.com/zai-org/Synapse) |
 | **Repository** | [github.com/zai-org/Synapse](https://github.com/zai-org/Synapse) |
-| **Status** | `Active` — early phase; last commit 2026-05-24; schema and protocol subject to rapid change |
+| **Status** | `Active` — early phase; last commit 2026-05-20; schema and protocol subject to rapid change |
 | **Openness** | `Open source (Apache-2.0)` |
 | **Deployment** | `Self-hosted` — Web workspace with local execution; deploy via Docker or source |
 | **First release** | Unknown — no tagged releases yet |

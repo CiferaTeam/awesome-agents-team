@@ -36,7 +36,7 @@ OpenTeams is an open-source multi-agent collaboration workspace that brings mult
 ## Data & Storage Model
 
 - **Primary store**: Local workspace — execution runs locally; context and state managed within the shared session
-- **Data portability**: Unknown — no documented export format as of current research
+- **Data portability**: Unknown — no documented export format
 - **Offline capability**: Partial — local execution works offline; web features require connectivity
 - **Vendor lock-in risk**: **Low** — open-source (Apache-2.0); runs entirely in local workspace
 
