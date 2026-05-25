@@ -49,6 +49,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
+- [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
@@ -82,6 +83,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
+| [Hermes](products/hermes.md) | Open source (MIT) | Self-hosted | Active | Self-improving agent framework | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
@@ -89,6 +91,8 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
+| [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
+| [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
