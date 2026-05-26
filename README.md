@@ -72,6 +72,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
 - [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
+- [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
@@ -100,6 +101,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
 | [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
+| [Loop](products/loop.md) | Closed source | Cloud | Active | Team agent collaboration workspace | 📄 |
 | [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
 | [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
