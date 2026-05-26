@@ -44,6 +44,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 
 - [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
+- [Golutra](products/golutra.md) — Multi-agent workspace that wraps existing CLI tools into a unified visual orchestration hub with parallel execution and workflow templates. `local-first` `open-source`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
 - [Hermes](products/hermes.md) — Self-improving AI agent framework with closed learning loop: auto-generates and iterates skill documents from execution history. `self-hosted` `open-source`
 - [HiClaw](products/hiclaw.md) — Enterprise-grade multi-agent collaboration via Matrix rooms: Manager coordinates Workers with human visibility. `self-hosted` `open-source`
@@ -94,6 +95,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
+| [Golutra](products/golutra.md) | Open source (BSL-1.1) | Local-first | Active | Multi-agent CLI workspace | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
 | [Hermes](products/hermes.md) | Open source (MIT) | Self-hosted | Active | Self-improving agent framework | 📄 |
