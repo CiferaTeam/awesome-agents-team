@@ -54,6 +54,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Metaswarm](products/metaswarm.md) — Multi-agent orchestration framework for Claude Code / Gemini / Codex: 18 agents, parallel review gates, TDD enforcement, spec-driven development. `self-hosted` `open-source`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
+- [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
@@ -105,6 +106,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
+| [OpenAlice](products/openalice.md) | Open source (AGPL-3.0) | Self-hosted | Active | AI trading agent with research-to-exit lifecycle | 📄 |
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
