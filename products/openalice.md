@@ -39,9 +39,9 @@ Users interact with Alice through multiple surfaces — a Web UI for chat and po
 | Aspect | Detail |
 |--------|--------|
 | **Agent model** | Single AI agent with domain-specific tool surfaces (Trading, Market Data, Analysis, News) operating inside workspace-resident CLI sessions. Multiple UTAs act like independent repositories |
-| **Coordination mechanism** | MCP-based tool exposure. Global ToolCenter registers domain tools; WorkspaceToolCenter holds per-workspace factories. AgentCenter + ProviderRouter route AI calls to the active backend |
+| **Coordination mechanism** | Built-in orchestration for trading workflows (UTA lifecycle, Guard pipeline, workspace scheduling). MCP-based tool exposure for external integration. Global ToolCenter registers domain tools; WorkspaceToolCenter holds per-workspace factories. AgentCenter + ProviderRouter route AI calls to the active backend |
 | **Human oversight** | Explicit approval before trade execution; guard pipeline enforces automated safety limits; users can intervene in any workspace session or via Inbox replies |
-| **Multi-agent protocol** | MCP server exposes OpenAlice tools to external agents; internal execution routes through workspace CLI sessions with `.mcp.json` plumbing |
+| **Multi-agent protocol** | **No built-in multi-agent** — OpenAlice is a single-agent system. MCP server exposes its tools to external agents/orchestrators; internal execution routes through workspace CLI sessions with `.mcp.json` plumbing |
 
 ## Data & Storage Model
 
