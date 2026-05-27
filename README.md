@@ -43,6 +43,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 > Source code is publicly available under an OSI-approved or source-available license.
 
 - [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
+- [crewAI](products/crewai.md) — Lean Python framework for multi-agent automations with role-based Crews and event-driven Flows. `self-hosted` `open-source`
 - [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [Golutra](products/golutra.md) — Multi-agent workspace that wraps existing CLI tools into a unified visual orchestration hub with parallel execution and workflow templates. `local-first` `open-source`
@@ -94,6 +95,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [agency-agents](products/agency-agents.md) | Open source (MIT) | Local-first | Active | Agent personality library | 📄 |
 | [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
 | [COCO](products/coco.md) | Closed source | Cloud | Active | Managed AI agent teams | 📄 |
+| [crewAI](products/crewai.md) | Open source (MIT) | Self-hosted | Active | Multi-agent automation framework | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
