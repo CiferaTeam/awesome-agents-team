@@ -39,7 +39,7 @@ AionUi is a cross-platform desktop application that provides a unified Cowork in
 |--------|--------|
 | **Agent model** | Multi-agent hierarchical — built-in agent + auto-detected external CLI agents. Team mode adds Leader/Teammate delegation with parallel execution |
 | **Coordination mechanism** | ACP (Agent Communication Protocol) for multi-agent coordination; Leader assigns subtasks, Teammates execute in parallel with async mailbox. MCP tools unified across all agents |
-| **Human oversight** — Each agent has its own permission confirmation dialog; sidebar badge shows pending approvals. YOLO mode allows bypassing confirmations |
+| **Human oversight** | Each agent has its own permission confirmation dialog; sidebar badge shows pending approvals. YOLO mode allows bypassing confirmations |
 
 ## Data & Storage Model
 
@@ -76,5 +76,3 @@ AionUi is a cross-platform desktop application that provides a unified Cowork in
 
 - [AionUi GitHub repository](https://github.com/iOfficeAI/AionUi)
 - [AionUi official website](https://aionui.com/)
-- [Julian Goldie SEO — Hermes + Aion UI review](https://www.youtube.com/watch?v=example)
-- [WorldofAI — OpenClaw + Aion UI review](https://www.youtube.com/watch?v=example)
