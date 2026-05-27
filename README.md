@@ -43,6 +43,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 > Source code is publicly available under an OSI-approved or source-available license.
 
 - [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
+- [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [Golutra](products/golutra.md) — Multi-agent workspace that wraps existing CLI tools into a unified visual orchestration hub with parallel execution and workflow templates. `local-first` `open-source`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
@@ -61,6 +62,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
+- [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
 - [Zano](products/zano.md) — Persistent Claude Code agents in chat channels with local bridge and task board. `hybrid` `open-source`
 - [Zylos Zalo](products/zylos-zalo.md) — Zalo Bot Platform channel for the Zylos agent runtime: dual-mode delivery, DM/group access control, and media forwarding. `self-hosted` `open-source`
 
@@ -94,6 +96,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [COCO](products/coco.md) | Closed source | Cloud | Active | Managed AI agent teams | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
+| [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [Golutra](products/golutra.md) | Open source (BSL-1.1) | Local-first | Active | Multi-agent CLI workspace | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
@@ -120,6 +123,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
+| [WenzAgent](products/wenzagent.md) | Open source (Apache-2.0) | Self-hosted | Active | Dart agent framework with LAN RPC | 📄 |
 | [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
 | [Zylos Zalo](products/zylos-zalo.md) | Open source (MIT) | Self-hosted | Active | Zalo channel for Zylos agent runtime | 📄 |
 
