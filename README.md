@@ -60,6 +60,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
+- [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
