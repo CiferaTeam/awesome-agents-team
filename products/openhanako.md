@@ -61,7 +61,7 @@ OpenHanako (branded as HanaAgent) is a personal AI agent desktop application des
 ## Ecosystem & Integrations
 
 - **AI platforms**: OpenAI-compatible, Anthropic, OAuth providers, Ollama, LM Studio and other local models
-- **Chat platforms**: Telegram, Feishu (Lark), DingTalk, WeChat, WeCom, QQ
+- **Chat platforms**: Telegram, Feishu (Lark), WeChat, QQ
 - **Protocols**: Custom agent communication via Hub event bus; plugin-based extensibility
 - **Skills**: Built-in + community SKILLS from GitHub + custom skills written by agents
 - **Platform support**: macOS (Apple Silicon / Intel, signed & notarized), Windows (Beta), Linux (AppImage / deb)
