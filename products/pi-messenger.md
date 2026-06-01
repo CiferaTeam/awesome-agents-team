@@ -75,5 +75,5 @@ PI Messenger is an extension for the Pi coding agent that enables multiple agent
 ## References
 
 - [PI Messenger GitHub repository](https://github.com/nicobailon/pi-messenger)
-- [Pi coding agent](https://github.com/badlogicgames/pi)
-- [mcp_agent_mail by @doodlestein](https://github.com/doodlestein/mcp_agent_mail) — Inspiration for agent-to-agent messaging
+- [Pi coding agent](https://github.com/badlogic/pi-mono)
+- [mcp_agent_mail by @Dicklesworthstone](https://github.com/Dicklesworthstone/mcp_agent_mail) — Inspiration for agent-to-agent messaging
