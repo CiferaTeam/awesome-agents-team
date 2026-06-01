@@ -63,6 +63,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
+- [PI Messenger](products/pi-messenger.md) — Multi-agent communication extension for Pi coding agent with file-based mesh, crew orchestration, and interactive overlay. `local-first` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
