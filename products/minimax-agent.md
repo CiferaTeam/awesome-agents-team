@@ -73,7 +73,7 @@ MiniMax Agent is an AI-native workspace that combines a desktop cowork environme
 ## Screenshots / Demo
 
 - [MiniMax Agent official site](https://agent.minimax.io/)
-- [MiniMax Agent — Product intro video](https://www.testingcatalog.com/minimax-launches-managed-always-on-maxclaw-ai-agent/)
+- [MiniMax Agent — MaxClaw launch coverage (TestingCatalog)](https://www.testingcatalog.com/minimax-launches-managed-always-on-maxclaw-ai-agent/)
 
 ## References
 

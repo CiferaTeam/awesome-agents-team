@@ -56,7 +56,6 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Lingtai](products/lingtai.md) — Unix-style Agent OS: agents live in the filesystem and communicate by mailbox. `local-first` `open-source`
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
 - [Metaswarm](products/metaswarm.md) — Multi-agent orchestration framework for Claude Code / Gemini / Codex: 18 agents, parallel review gates, TDD enforcement, spec-driven development. `self-hosted` `open-source`
-- [MiniMax Agent](products/minimax-agent.md) — AI-native workspace with desktop cowork, expert agents, and autonomous computer use for building apps and automating workflows. `hybrid` `freemium`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
@@ -81,6 +80,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
 - [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
+- [MiniMax Agent](products/minimax-agent.md) — AI-native workspace with desktop cowork, expert agents, and autonomous computer use for building apps and automating workflows. `hybrid` `freemium`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
