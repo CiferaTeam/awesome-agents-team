@@ -43,6 +43,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 > Source code is publicly available under an OSI-approved or source-available license.
 
 - [agency-agents](products/agency-agents.md) — 144+ production-ready AI agent personalities across 12 divisions for Claude Code, Copilot, Cursor, and more. `local-first` `open-source`
+- [agentUniverse](products/agentuniverse.md) — Multi-agent framework from AntGroup financial practices with collaborative patterns, visual workflows, and extensive model support. `self-hosted` `open-source`
 - [AionUi](products/aionui.md) — Free open-source Cowork desktop app with built-in agent engine, multi-agent orchestration, and 24/7 scheduled automation. `local-first` `open-source`
 - [crewAI](products/crewai.md) — Lean Python framework for multi-agent automations with role-based Crews and event-driven Flows. `self-hosted` `open-source`
 - [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
