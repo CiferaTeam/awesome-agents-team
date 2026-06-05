@@ -83,6 +83,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
 - [MiniMax Agent](products/minimax-agent.md) — AI-native workspace with desktop cowork, expert agents, and autonomous computer use for building apps and automating workflows. `hybrid` `freemium`
+- [Moxt](products/moxt.md) — Agent-native workspace with persistent personal AI assistants, shared AI teammates, and Slack/Feishu integration. `cloud` `freemium`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
