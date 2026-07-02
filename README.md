@@ -58,6 +58,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
 - [Metaswarm](products/metaswarm.md) — Multi-agent orchestration framework for Claude Code / Gemini / Codex: 18 agents, parallel review gates, TDD enforcement, spec-driven development. `self-hosted` `open-source`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
+- [Octo](products/octo.md) — Open-source AI-native team collaboration platform where humans and OpenClaw-powered agents share channels, threads, and spaces. `self-hosted` `open-source`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
@@ -121,6 +122,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
+| [Octo](products/octo.md) | Open source (Apache-2.0) | Self-hosted | Active | AI-native team collaboration with OpenClaw agents | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
 | [OpenAlice](products/openalice.md) | Open source (AGPL-3.0) | Self-hosted | Active | AI trading agent with research-to-exit lifecycle | 📄 |
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
