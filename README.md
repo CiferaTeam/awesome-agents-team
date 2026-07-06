@@ -68,6 +68,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [PI Messenger](products/pi-messenger.md) — Multi-agent communication extension for Pi coding agent with file-based mesh, crew orchestration, and interactive overlay. `local-first` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
+- [Tutti](products/tutti.md) — Real-time shared workspace where multiple AI agents share context, files, apps, and tasks. `local-first` `open-source`
 - [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
 - [Zano](products/zano.md) — Persistent Claude Code agents in chat channels with local bridge and task board. `hybrid` `open-source`
 - [Zylos Zalo](products/zylos-zalo.md) — Zalo Bot Platform channel for the Zylos agent runtime: dual-mode delivery, DM/group access control, and media forwarding. `self-hosted` `open-source`
@@ -133,6 +134,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
+| [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 | [WenzAgent](products/wenzagent.md) | Open source (Apache-2.0) | Self-hosted | Active | Dart agent framework with LAN RPC | 📄 |
 | [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
