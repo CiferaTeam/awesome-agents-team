@@ -71,7 +71,3 @@ Tutti is a real-time shared workspace for AI agents. Instead of treating each co
 - [tutti-os/tutti on GitHub](https://github.com/tutti-os/tutti)
 - [Tutti releases](https://github.com/tutti-os/tutti/releases)
 - [Tutti documentation](https://github.com/tutti-os/tutti/tree/main/docs)
-
----
-
-*Page maintained by: @flame4. Last verified: 2026-07.*
