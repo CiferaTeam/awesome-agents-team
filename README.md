@@ -91,6 +91,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
+- [WorkBuddy](products/workbuddy.md) — Desktop AI teammate for everyday office work from Tencent Cloud. `local-first` `freemium`
 
 ---
 
@@ -137,6 +138,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 | [WenzAgent](products/wenzagent.md) | Open source (Apache-2.0) | Self-hosted | Active | Dart agent framework with LAN RPC | 📄 |
+| [WorkBuddy](products/workbuddy.md) | Closed source | Local-first | Active | AI office automation / multi-agent workspace | 📄 |
 | [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
 | [Zylos Zalo](products/zylos-zalo.md) | Open source (MIT) | Self-hosted | Active | Zalo channel for Zylos agent runtime | 📄 |
 
