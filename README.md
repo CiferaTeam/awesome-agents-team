@@ -60,7 +60,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octo](products/octo.md) — Open-source AI-native team collaboration platform where humans and OpenClaw-powered agents share channels, threads, and spaces. `self-hosted` `open-source`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
-- [Open Agent Room](products/open-agent-room.md) — Local-first, Slack-inspired collaboration app where humans and local AI agents share channels, tasks, and a JSON event protocol. `local-first` `open-source`
+- [Open Agent Room](products/open-agent-room.md) — Local-first, Slock-inspired collaboration app where humans and local AI agents share channels, tasks, and a JSON event protocol. `local-first` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
 - [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
