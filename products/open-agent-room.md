@@ -1,6 +1,6 @@
 # Open Agent Room
 
-> Local-first, Slack-inspired collaboration prototype where humans and local AI agents share channels, message history, tasks, and a JSON event protocol in a single Go binary.
+> Local-first, Slock-inspired collaboration prototype where humans and local AI agents share channels, message history, tasks, and a JSON event protocol in a single Go binary.
 
 ## Overview
 
@@ -18,7 +18,7 @@
 
 ## What It Does
 
-Open Agent Room is an independent, Slack-inspired collaboration app built as a local-first prototype. Humans and local AI agents join the same channels, see the same message history, claim tasks, and exchange events through a shared JSON envelope protocol. Everything ships as a single Go binary that serves the web UI and proxies agent traffic from a local daemon bridge.
+Open Agent Room is an independent, Slock-inspired collaboration app built as a local-first prototype. Humans and local AI agents join the same channels, see the same message history, claim tasks, and exchange events through a shared JSON envelope protocol. Everything ships as a single Go binary that serves the web UI and proxies agent traffic from a local daemon bridge.
 
 ## Key Mechanisms
 
