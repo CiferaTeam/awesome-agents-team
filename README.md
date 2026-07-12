@@ -50,6 +50,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [Golutra](products/golutra.md) — Multi-agent workspace that wraps existing CLI tools into a unified visual orchestration hub with parallel execution and workflow templates. `local-first` `open-source`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
+- [Herdr](products/herdr.md) — Terminal-native agent multiplexer for AI coding agents: detach, reattach, and watch live agent sessions from one Rust TUI. `local-first` `open-source`
 - [Hermes](products/hermes.md) — Self-improving AI agent framework with closed learning loop: auto-generates and iterates skill documents from execution history. `self-hosted` `open-source`
 - [HiClaw](products/hiclaw.md) — Enterprise-grade multi-agent collaboration via Matrix rooms: Manager coordinates Workers with human visibility. `self-hosted` `open-source`
 - [Hive](products/hive.md) — Multi-agent harness for production AI with auto-generated execution graphs and self-healing. `self-hosted` `open-source`
@@ -114,6 +115,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Golutra](products/golutra.md) | Open source (BSL-1.1) | Local-first | Active | Multi-agent CLI workspace | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
 | [Helio](products/helio.md) | Closed source | Cloud | Active | AI-native team workspace | 📄 |
+| [Herdr](products/herdr.md) | Open source (AGPL-3.0-or-later) | Local-first | Active | Terminal agent multiplexer | 📄 |
 | [Hermes](products/hermes.md) | Open source (MIT) | Self-hosted | Active | Self-improving agent framework | 📄 |
 | [HiClaw](products/hiclaw.md) | Open source (Apache-2.0) | Self-hosted | Active | Enterprise multi-agent collaboration | 📄 |
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
