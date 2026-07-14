@@ -92,6 +92,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
+- [Todos](products/todos-dev.md) — The product workspace for small teams and agents. `hybrid` `freemium`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
 - [WorkBuddy](products/workbuddy.md) — Desktop AI teammate for everyday office work from Tencent Cloud. `local-first` `freemium`
 
@@ -139,6 +140,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
+| [Todos](products/todos-dev.md) | Closed source | Hybrid | Active | Product workspace for small teams and agents | 📄 |
 | [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 | [WenzAgent](products/wenzagent.md) | Open source (Apache-2.0) | Self-hosted | Active | Dart agent framework with LAN RPC | 📄 |
