@@ -46,6 +46,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [agentUniverse](products/agentuniverse.md) — Multi-agent framework from AntGroup financial practices with collaborative patterns, visual workflows, and extensive model support. `self-hosted` `open-source`
 - [AionUi](products/aionui.md) — Free open-source Cowork desktop app with built-in agent engine, multi-agent orchestration, and 24/7 scheduled automation. `local-first` `open-source`
 - [botmux](products/botmux.md) — Bridge Feishu/Lark to AI coding CLIs: each DM, group, or topic spawns its own live-streaming CLI session. `self-hosted` `open-source`
+- [Cradle](products/cradle.md) — Desktop multi-agent orchestration command center: coordinate Claude Code, Codex, and other agent runtimes across worktrees with kanban delegation and a 7-plugin tool marketplace. `local-first`
 - [crewAI](products/crewai.md) — Lean Python framework for multi-agent automations with role-based Crews and event-driven Flows. `self-hosted` `open-source`
 - [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
 - [First-Tree](products/first-tree.md) — Context-grounded agentic workspace: agents work from your team's Git-native Context Tree, with human review points and GitHub integration. `self-hosted` `open-source`
@@ -112,6 +113,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [botmux](products/botmux.md) | Open source (MIT) | Self-hosted | Active | Feishu/Lark bridge for AI coding CLIs | 📄 |
 | [Bloome](products/bloome.md) | Closed source | Cloud | Active / Beta | Consumer job search | 📄 |
 | [COCO](products/coco.md) | Closed source | Cloud | Active | Managed AI agent teams | 📄 |
+| [Cradle](products/cradle.md) | Unknown | Local-first | Active | Multi-agent orchestration desktop | 📄 |
 | [crewAI](products/crewai.md) | Open source (MIT) | Self-hosted | Active | Multi-agent automation framework | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
