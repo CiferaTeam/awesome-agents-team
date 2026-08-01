@@ -11,8 +11,8 @@
 | **Status** | `Active` — 47 GitHub stars, last commit 2026-08-01 (within 24h of this entry); project self-describes as "early stages of development" |
 | **Openness** | `Unknown` — repository is publicly readable on GitHub but no LICENSE file is present in the tree (verified 2026-08-01) |
 | **Deployment** | `Local-first` — Electron desktop app + bundled Node runtime; companion server, web workspace, and relay daemon are optional and can run locally or on user infra |
-| **First release** | Unknown — repository created 2026 (no tagged release yet) |
-| **Last release / commit** | 2026-08-01 (commit `85b5f80` "fix(github): reject duplicate PR body sections (#109)") |
+| **First release** | 2026-06-07 — earliest pre-release tag `dev-20260607.2`; all 21 release tags to date are pre-release, no stable release yet |
+| **Last release / commit** | Last release 2026-07-30 (pre-release tag `dev-20260730.1`); last commit 2026-08-01 (`85b5f80` "fix(github): reject duplicate PR body sections (#109)") |
 | **Language / Stack** | TypeScript (pnpm monorepo: Fastify server, React web, Electron desktop, CLI) + Rust (`chronicle` observability crate) |
 | **License** | Unknown — no LICENSE/COPYING file in the repository root |
 
@@ -54,7 +54,7 @@ The orchestrator view replaces chat windows: kanban shows column/state for every
 
 | Tier | Price | Limits |
 |------|-------|--------|
-| Open source / self-hosted | $0 | Self-host server + desktop + CLI; bring your own agent runtimes and LLM access |
+| Self-hosted / public source | $0 | Self-host server + desktop + CLI; bring your own agent runtimes and LLM access |
 | Hosted (cradle.wibus.ren) | Free tier / paid | Hosted workspace; guided setup connects machines via install script |
 
 ## Ecosystem & Integrations
