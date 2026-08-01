@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [codexloom.ai](https://codexloom.ai/) |
 | **Repository** | [github.com/yan5xu/codexloom](https://github.com/yan5xu/codexloom) |
-| **Status** | `Active` — 52 stars, 4 forks; tag v0.1.0-dev.1; last push 2026-08-01 |
+| **Status** | `Active` — 52 stars, 4 forks; no GitHub Release yet; last push 2026-08-01 |
 | **Openness** | `Source available (Elastic License 2.0)` — source-available, not OSI open source |
 | **Deployment** | `Self-hosted` — local-first; runs from source with the `codex` CLI, WebUI at localhost:4870 |
-| **First release** | 2026-07 |
-| **Last release / commit** | 2026-08-01 (v0.1.0-dev.1) |
+| **First release** | No GitHub Release yet — first tag `v0.1.0-dev.1` (2026-07-16) is a checkpoint milestone |
+| **Last release / commit** | No GitHub Release yet — latest main commit `0797c1f2` (2026-08-01) |
 | **Language / Stack** | Go, Codex-native |
 | **License** | Elastic License 2.0 (ELv2) |
 
