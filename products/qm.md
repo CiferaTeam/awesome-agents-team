@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [qm.ycombinator.com](https://qm.ycombinator.com) |
 | **Repository** | [github.com/yc-software/qm](https://github.com/yc-software/qm) |
-| **Status** | `Active` — 4,005 GitHub stars, 372 forks; last push 2026-08-01; latest release `v0.1.4` (2026-07-31) |
+| **Status** | `Active` — 4,035 GitHub stars, 372 forks; last push 2026-08-01; latest release `v0.1.4` (2026-07-31) |
 | **Openness** | `Open source (MIT)` |
 | **Deployment** | `Self-hosted` — organization-owned deployment repo targeting Fly.io or AWS; runs in the operator's cloud account |
 | **First release** | 2026-07 — earliest tag `v0.1.2` (2026-07-31) |
-| **Last release / commit** | `v0.1.4` (2026-07-31); latest commit on `main` pushed 2026-08-01 |
+| **Last release / commit** | `v0.1.4` (2026-07-31); latest main commit `7f2c916` (2026-07-31); repository last push 2026-08-01 |
 | **Language / Stack** | TypeScript (Node, Fastify, Bolt for Slack, Vite + Lit for web UI), Postgres, Docker sandbox |
 | **License** | MIT |
 
