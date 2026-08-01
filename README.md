@@ -64,6 +64,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Octo](products/octo.md) — Open-source AI-native team collaboration platform where humans and OpenClaw-powered agents share channels, threads, and spaces. `self-hosted` `open-source`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [Open Agent Room](products/open-agent-room.md) — Local-first, Slock-inspired collaboration app where humans and local AI agents share channels, tasks, and a JSON event protocol. `local-first` `open-source`
+- [open-multi-agent](products/open-multi-agent.md) — TypeScript multi-agent orchestration framework with dynamic goal-to-DAG coordination, shared memory, checkpoints, and offline Run Viewer. `self-hosted` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
 - [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
@@ -135,6 +136,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Octo](products/octo.md) | Open source (Apache-2.0) | Self-hosted | Active | AI-native team collaboration with OpenClaw agents | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
 | [Open Agent Room](products/open-agent-room.md) | Open source (MIT) | Local-first | Active | Local-first human-agent collaboration prototype | 📄 |
+| [open-multi-agent](products/open-multi-agent.md) | Open source (MIT) | Self-hosted | Active | TypeScript multi-agent orchestration framework | 📄 |
 | [OpenAlice](products/openalice.md) | Open source (AGPL-3.0) | Self-hosted | Active | AI trading agent with research-to-exit lifecycle | 📄 |
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
