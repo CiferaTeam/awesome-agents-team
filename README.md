@@ -73,6 +73,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [PI Messenger](products/pi-messenger.md) — Multi-agent communication extension for Pi coding agent with file-based mesh, crew orchestration, and interactive overlay. `local-first` `open-source`
+- [QM](products/qm.md) — Multiplayer agent harness for work: scoped personal and channel agents, agent-to-agent handoff, and shared skills. `self-hosted` `open-source`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - [Tutti](products/tutti.md) — Real-time shared workspace where multiple AI agents share context, files, apps, and tasks. `local-first` `open-source`
@@ -145,6 +146,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
+| [QM](products/qm.md) | Open source (MIT) | Self-hosted | Active | Multiplayer agent harness with scoped agents | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
 | [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 | [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
