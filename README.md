@@ -48,6 +48,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [botmux](products/botmux.md) — Bridge Feishu/Lark to AI coding CLIs: each DM, group, or topic spawns its own live-streaming CLI session. `self-hosted` `open-source`
 - [crewAI](products/crewai.md) — Lean Python framework for multi-agent automations with role-based Crews and event-driven Flows. `self-hosted` `open-source`
 - [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
+- [First-Tree](products/first-tree.md) — Context-grounded agentic workspace: agents work from your team's Git-native Context Tree, with human review points and GitHub integration. `self-hosted` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
 - [Golutra](products/golutra.md) — Multi-agent workspace that wraps existing CLI tools into a unified visual orchestration hub with parallel execution and workflow templates. `local-first` `open-source`
 - [HashCortX](products/hashcortx.md) — Local-first AI desktop app with 11 modes, multi-agent swarms, and zero telemetry. `local-first` `open-source`
@@ -114,6 +115,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
+| [First-Tree](products/first-tree.md) | Open source (Apache-2.0) | Self-hosted | Active | Context-grounded multi-agent workspace | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [Golutra](products/golutra.md) | Open source (BSL-1.1) | Local-first | Active | Multi-agent CLI workspace | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
