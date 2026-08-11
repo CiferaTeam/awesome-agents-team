@@ -66,6 +66,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octo](products/octo.md) — Open-source AI-native team collaboration platform where humans and OpenClaw-powered agents share channels, threads, and spaces. `self-hosted` `open-source`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
+- [Omnigent](products/omnigent.md) — Open-source meta-harness for AI coding agents: orchestrate Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and custom agents with cross-vendor review, governance policies, and cloud sandboxes. `hybrid` `open-source`
 - [Open Agent Room](products/open-agent-room.md) — Local-first, Slock-inspired collaboration app where humans and local AI agents share channels, tasks, and a JSON event protocol. `local-first` `open-source`
 - [open-multi-agent](products/open-multi-agent.md) — TypeScript multi-agent orchestration framework with dynamic goal-to-DAG coordination, shared memory, checkpoints, and offline Run Viewer. `self-hosted` `open-source`
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
@@ -144,6 +145,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
 | [Octo](products/octo.md) | Open source (Apache-2.0) | Self-hosted | Active | AI-native team collaboration with OpenClaw agents | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
+| [Omnigent](products/omnigent.md) | Open source (Apache-2.0) | Hybrid | Active | Meta-harness for multi-agent coding workflows | 📄 |
 | [Open Agent Room](products/open-agent-room.md) | Open source (MIT) | Local-first | Active | Local-first human-agent collaboration prototype | 📄 |
 | [open-multi-agent](products/open-multi-agent.md) | Open source (MIT) | Self-hosted | Active | TypeScript multi-agent orchestration framework | 📄 |
 | [OpenAlice](products/openalice.md) | Open source (AGPL-3.0) | Self-hosted | Active | AI trading agent with research-to-exit lifecycle | 📄 |
