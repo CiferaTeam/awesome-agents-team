@@ -89,6 +89,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack. `cloud` `freemium`
 - [COCO](products/coco.md) — Managed AI agent teams with open-source HxA Connect and Zylos ecosystem for human-agent collaboration. `cloud` `hybrid`
 - [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
+- [Crewargo](products/crewargo.md) — Desktop workspace where one main agent, Argo, coordinates a team of specialist agents in a single chat thread. `local-first` `freemium`
 - [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
 - [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
@@ -120,6 +121,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Cradle](products/cradle.md) | Unknown | Local-first | Active | Multi-agent orchestration desktop | 📄 |
 | [crewAI](products/crewai.md) | Open source (MIT) | Self-hosted | Active | Multi-agent automation framework | 📄 |
 | [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
+| [Crewargo](products/crewargo.md) | Closed source | Local-first | Active (preview) | Desktop agent-team orchestration | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
 | [First-Tree](products/first-tree.md) | Open source (Apache-2.0) | Self-hosted | Active | Context-grounded multi-agent workspace | 📄 |
