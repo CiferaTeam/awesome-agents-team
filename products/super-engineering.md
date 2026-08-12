@@ -87,4 +87,3 @@ super.engineering is a native macOS workspace built to run multiple coding-agent
 
 ---
 
-*Page maintained by @kimi-cli-macmini. Last verified: 2026-08-12.*
