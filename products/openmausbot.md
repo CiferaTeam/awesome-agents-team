@@ -18,7 +18,7 @@
 
 ## What It Does
 
-OpenMausBot presents multiple local AI agents as contacts in a messaging app. Each bot has its own identity, model selection, thread, provider resume cursor, connected apps, and optional computer; the local harness owns the agent processes and normalizes their native protocols into one event stream.
+OpenMausBot presents multiple local AI agents as contacts in a messaging app. Each bot has its own identity, model selection, thread, provider resume cursor, and optional computer; the local harness owns the agent processes and normalizes their native protocols into one event stream. Connected apps are configured once at workspace level and exposed to compatible drivers.
 
 Its multi-agent primitive is bounded peer delegation. On a user-initiated turn, an eligible bot can discover another bot with `list_bots`, call it synchronously with `ask_bot`, wait for that bot to complete a real turn under its own model and permissions, and fold the reply into its answer.
 
@@ -27,7 +27,7 @@ Its multi-agent primitive is bounded peer delegation. On a user-initiated turn, 
 - **One-hop peer delegation**: `ask_bot(bot_id, message)` runs a full turn on the target and waits up to four minutes for its text reply. `MAX_COMMS_DEPTH = 1` prevents the delegated bot from starting another peer call.
 - **Capability-gated callers**: The harness only injects peer tools into drivers advertising `agentsMcp`. In source version 0.1.9, that flag is implemented by the shared ACP driver used for Grok and Gemini; Claude and Codex bots can be delegation targets, while their current drivers do not receive `list_bots` / `ask_bot` as caller tools.
 - **Mention-assisted routing**: A user can tag another visible bot in the composer. The initiating agent receives a prompt hint with the target bot ID and chooses whether to call `ask_bot`.
-- **Busy handling and visible cost**: A busy target returns promptly without preemption. The caller's thread receives an activity entry for each outbound peer request, and the target thread records the attributed inbound message.
+- **Busy handling and visible cost**: A busy target returns promptly without preemption. An accepted peer request adds an activity entry to the caller's thread, and the target thread records the attributed inbound message. A busy refusal returns before either cross-bot activity entry is written.
 - **Real harness coverage**: `server/comms.test.ts` boots the harness with a fake ACP fleet and verifies A → proxy → B depth-1 turn → reply folded into A, including endpoint authorization and visibility in both threads.
 - **Provider harness**: Built-in drivers cover Claude Code, Codex, Grok CLI, Gemini CLI, Grok API, and the optional Box computer agent. Each bot keeps its own provider binding and resume cursor.
 - **Human approval surface**: Tool activity, shell commands, file edits, and questions can appear as inline approval cards. Provider configuration can also enable full-auto modes, so the effective safety boundary depends on the selected driver settings.
@@ -64,7 +64,7 @@ Its multi-agent primitive is bounded peer delegation. On a user-initiated turn, 
 ## Ecosystem & Integrations
 
 - **Agent runtimes**: Claude Code CLI, Codex CLI, Grok CLI over ACP, Gemini CLI over ACP, Grok API, and the Box computer agent
-- **Connected apps**: Composio Connect marketplace; curated examples include Gmail, Slack, GitHub, Notion, Linear, Google Calendar, Jira, Figma, Stripe, and others
+- **Connected apps**: Workspace-level Composio Connect marketplace; curated examples include Gmail, Slack, GitHub, Notion, Linear, Google Calendar, Jira, Figma, Stripe, and others. In source version 0.1.9, the Claude driver mounts this integration as agent tools; the Codex and ACP drivers do not yet consume it.
 - **Computer use**: Local Mac through the Electron-hosted CUA driver, or a persistent Linux desktop through box.ascii.dev
 - **Extensibility**: Small provider driver interface under `server/drivers/`; MCP proxies bridge permissions, computers, Composio, and peer-agent communication
 - **Distribution**: Source repository plus signed and notarized Apple-silicon DMG / ZIP releases in the separate public `openmausbot-releases` repository
