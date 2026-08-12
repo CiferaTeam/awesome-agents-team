@@ -8,11 +8,11 @@
 |-------|-------|
 | **Homepage** | [supamaus.com/products/openmausbot](https://www.supamaus.com/products/openmausbot) |
 | **Repository** | [github.com/milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) |
-| **Status** | `Early / Active` — repository created 2026-08-11; 513 stars and 90 forks as of 2026-08-13; source checkout `6ec81ca` passed 82 tests and TypeScript type-checking |
+| **Status** | `Early / Active` — repository created 2026-08-11; 513 stars and 90 forks as of 2026-08-13; source checkout `0537096` passed 82 tests and TypeScript type-checking |
 | **Openness** | `Open source (MIT)` — OSI-approved |
 | **Deployment** | `Local-first` — signed and notarized Apple-silicon macOS app; source development requires macOS, Node 24+, pnpm, and at least one supported CLI |
 | **First release** | v0.1.0 (2026-08-11) |
-| **Last release / commit** | Binary release v0.1.8 (2026-08-12); source version 0.1.9 at commit `6ec81ca` (2026-08-12 UTC) |
+| **Last release / commit** | Binary release v0.1.8 (2026-08-12); source version 0.1.9 at commit `0537096` (2026-08-12 UTC) |
 | **Language / Stack** | TypeScript, React 19, Electron, Node.js harness, HTTP + SSE, JSON-RPC / ACP / MCP provider bridges |
 | **License** | MIT (Copyright © 2026 Milind Soni and contributors) |
 
@@ -79,10 +79,10 @@ Its multi-agent primitive is bounded peer delegation. On a user-initiated turn, 
 - [OpenMausBot source repository](https://github.com/milind-soni/OpenMausBot)
 - [OpenMausBot binary releases](https://github.com/milind-soni/openmausbot-releases/releases)
 - [v0.1.8 release](https://github.com/milind-soni/openmausbot-releases/releases/tag/v0.1.8)
-- [`list_bots` / `ask_bot` MCP proxy](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/server/drivers/agents-proxy.ts)
-- [Harness recursion, busy, and visibility controls](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/server/index.ts)
-- [Agent-to-agent end-to-end test](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/server/comms.test.ts)
-- [ACP driver capability gate](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/server/drivers/acp/core.ts)
-- [Local persistence implementation](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/server/store.ts)
-- [Security policy](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/SECURITY.md)
-- [Analytics implementation](https://github.com/milind-soni/OpenMausBot/blob/6ec81ca96b2e84b09b0b35720791a6f725a60062/src/lib/analytics.ts)
+- [`list_bots` / `ask_bot` MCP proxy](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/server/drivers/agents-proxy.ts)
+- [Harness recursion, busy, and visibility controls](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/server/index.ts)
+- [Agent-to-agent end-to-end test](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/server/comms.test.ts)
+- [ACP driver capability gate](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/server/drivers/acp/core.ts)
+- [Local persistence implementation](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/server/store.ts)
+- [Security policy](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/SECURITY.md)
+- [Analytics implementation](https://github.com/milind-soni/OpenMausBot/blob/0537096b881a616a7e7ff6c6a9d6ee79b4163090/src/lib/analytics.ts)
