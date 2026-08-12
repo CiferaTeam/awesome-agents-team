@@ -93,6 +93,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Crewargo](products/crewargo.md) — Desktop workspace where one main agent, Argo, coordinates a team of specialist agents in a single chat thread. `local-first` `freemium`
 - [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
 - [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
+- [GenTeam](products/genteam.md) — Cloud-hosted AI-team workspace: humans and agents share channels and tasks; agents claim, assign, and write results back to the originating message. `cloud` `closed-source`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
 - [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
@@ -128,6 +129,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
 | [First-Tree](products/first-tree.md) | Open source (Apache-2.0) | Self-hosted | Active | Context-grounded multi-agent workspace | 📄 |
+| [GenTeam](products/genteam.md) | Closed source | Cloud | Active | AI-team workspace with shared channels and tasks | 📄 |
 | [GitIM](products/gitim.md) | Open source (Apache-2.0) | Local-first | Active | Agent coordination / IM | 📄 |
 | [Golutra](products/golutra.md) | Open source (BSL-1.1) | Local-first | Active | Multi-agent CLI workspace | 📄 |
 | [HashCortX](products/hashcortx.md) | Open source (MIT) | Local-first | Active | Local AI desktop workspace | 📄 |
