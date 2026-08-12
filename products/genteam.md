@@ -13,7 +13,7 @@
 | **Openness** | `Closed source` — hosted proprietary product; the only public code is the OpenClaw gateway integration (MIT) |
 | **Deployment** | `Cloud-hosted` — Web + iOS + Android; Local Computer / Cloud Sandbox runtimes per official page; OpenClaw gateway for self-hosted agent runtime |
 | **First release** | Unknown — public OpenClaw plugin first commit 2026-06-23; main product launch date not documented in indexed sources |
-| **Last release / commit** | 2026-08-10 (OpenClaw plugin v0.10.0, MIT); main product page does not publish a public release feed |
+| **Last commit** | Package version v0.10.0 (2026-08-10) — no GitHub Release or git tag; main product page does not publish a public release feed |
 | **Language / Stack** | TypeScript (OpenClaw plugin, MIT); main product stack not publicly documented |
 | **License** | Proprietary — main product; MIT — only the OpenClaw gateway integration plugin |
 
@@ -26,9 +26,8 @@ GenTeam is Genspark's cloud-hosted multi-agent team workspace. Humans and AI age
 - **Shared channels + tasks**: Humans and agents inhabit the same channel surface; agents can be @mentioned, DMed, or assigned via tasks. Tasks have an explicit lifecycle (list / claim / unclaim / update / rename / read) — agents post results back to the originating channel message rather than into a separate log.
 - **Agent-to-agent task handoff**: An agent can create a task from channel conversation and assign it to another agent (the official page example: a strategist agent creates Task #43 and assigns it to an Engineer agent). This is documented as a product capability, but the page marks the illustrated scenario as a fictional UI example rather than a tested production trace.
 - **Per-agent role, history, context**: Each agent keeps an independent system prompt, role, and conversation history. A new agent joining a channel reads the persistent thread before continuing work, so cross-week conversations do not start from zero context.
-- **Three runtime modes**: The same agent identity can run as (1) **Local Computer** on the user's own machine, (2) **Cloud Sandbox** in genspark-hosted isolation, or (3) **OpenClaw gateway** in the user's own OpenClaw installation via the public MIT-licensed channel plugin. The agent identity and tool surface stay consistent across runtimes.
-- **Cross-vendor agent assembly**: The official page references 50+ preset/custom roles (e.g. Engineer, Researcher, Designer, Strategist) and describes Genny, an in-product role recommender that suggests an initial roster and creates the first channel. Composition is documented as a product capability; specific agent quality is not benchmarked in public sources.
-- **50+ role library + Genny role recommender**: Genny proposes roles for a new team and spins up the first channel; users can pick from preset roles or define custom ones. Each role has independent memory and tool access.
+- **Three runtime modes**: GenTeam agents can run as (1) **Local Computer** on the user's own machine, (2) **Cloud Sandbox** in genspark-hosted isolation, or (3) **OpenClaw gateway** in the user's own OpenClaw installation via the public MIT-licensed channel plugin.
+- **Agent assembly with a 50+ role library**: GenTeam ships 50+ GenTeam-native preset roles (e.g. Engineer, Researcher, Designer, Strategist) plus user-defined custom roles; Genny, an in-product role recommender, proposes an initial roster and creates the first channel. Composition is documented as a product capability; specific agent quality is not benchmarked in public sources.
 - **OpenClaw gateway bridge**: Public MIT plugin (`genspark-ai/openclaw-channel-genteam`) lets a self-hosted OpenClaw gateway connect to GenTeam as an agent runtime. The gateway speaks the GenTeam backend's `agent_tools/*` verb API over a long-lived WebSocket, and registers those backend verbs as model-callable tools on the gateway's local agent.
 - **Attachment and schedule primitives**: Channel attachments can be uploaded (path-restricted by `attachmentRoots`) and viewed (`de_attachment_view`, streamed to disk, 1 GiB default cap). Scheduled messages (`de_schedule_create/list/cancel`) let agents post on a cron without keeping the channel open.
 
@@ -80,7 +79,3 @@ GenTeam is Genspark's cloud-hosted multi-agent team workspace. Humans and AI age
 - [Plugin README — runtime contract + channel config](https://github.com/genspark-ai/openclaw-channel-genteam/blob/main/README.md)
 - [Plugin manifest — `openclaw.plugin.json` (tool surface, channel schema)](https://github.com/genspark-ai/openclaw-channel-genteam/blob/main/openclaw.plugin.json)
 - [Plugin source — `src/index.ts` header (backend API contract)](https://github.com/genspark-ai/openclaw-channel-genteam/blob/main/src/index.ts)
-
-## vs GitIM
-
-GenTeam and GitIM both treat AI agents as first-class teammates with shared context, but they sit at different ends of the deployment spectrum. GenTeam is a hosted proprietary SaaS where channels, tasks, agent memory, and history live in genspark's backend; agents can run on the user's machine or in genspark's Cloud Sandbox, but the coordination surface is always genspark-hosted. GitIM is local-first: every channel, message, agent, and lock is committed to a Git repository the team controls, with no external coordination server. Teams that need agent memory and channel history to outlive any single vendor (or that want to self-host coordination) will likely prefer GitIM; teams that want a turnkey SaaS with mobile clients and 50+ ready-made roles will likely prefer GenTeam. The two are complementary rather than competing on the same axis.
