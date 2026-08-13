@@ -72,6 +72,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [OpenAlice](products/openalice.md) — Locally runnable AI trading agent covering equities, crypto, commodities, forex, and macro with trading-as-Git and guard pipeline. `self-hosted` `open-source`
 - [OpenClaw](products/openclaw.md) — Autonomous AI agent framework with system-level execution: shell, filesystem, browser, and Docker. `self-hosted` `open-source`
 - [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
+- [OpenMausBot](products/openmausbot.md) — Local-first macOS chat app for BYO CLI agents, with one-hop peer delegation through `ask_bot`. `local-first` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Orca](products/orca.md) — AI Development Environment for a fleet of parallel coding agents: run Codex, Claude Code, OpenCode, Pi (and ~30 other CLIs) side-by-side, each in its own worktree, with fan-out prompt, mobile companion, and SSH worktrees. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
@@ -154,6 +155,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [open-multi-agent](products/open-multi-agent.md) | Open source (MIT) | Self-hosted | Active | TypeScript multi-agent orchestration framework | 📄 |
 | [OpenAlice](products/openalice.md) | Open source (AGPL-3.0) | Self-hosted | Active | AI trading agent with research-to-exit lifecycle | 📄 |
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
+| [OpenMausBot](products/openmausbot.md) | Open source (MIT) | Local-first | Early / Active | Chat workspace with one-hop peer delegation | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [Orca](products/orca.md) | Open source (MIT) | Local-first | Active | Fleet-of-parallel-agents ADE with fan-out worktrees | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
