@@ -49,6 +49,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [CodexLoom](products/codexloom.md) — Long-lived Codex domain agents organized into governed teams: agent-to-agent Messages, Topics, and Interface Agents. `self-hosted` `source-available`
 - [Cradle](products/cradle.md) — Desktop multi-agent orchestration command center: coordinate Claude Code, Codex, and other agent runtimes across worktrees with kanban delegation and a 7-plugin tool marketplace. `local-first`
 - [crewAI](products/crewai.md) — Lean Python framework for multi-agent automations with role-based Crews and event-driven Flows. `self-hosted` `open-source`
+- [Cumora](products/cumora.md) — Cross-platform team chat where humans and AI agents are first-class peers, with Cumora Cloud (per-agent K8s pods) or BYOA (your own Claude Code / Codex CLI) as interchangeable brains. `hybrid` `open-source`
 - [Edict](products/edict.md) — OpenClaw-based multi-agent orchestration with imperial governance hierarchy, institutional veto, and real-time dashboard. `self-hosted` `open-source`
 - [First-Tree](products/first-tree.md) — Context-grounded agentic workspace: agents work from your team's Git-native Context Tree, with human review points and GitHub integration. `self-hosted` `open-source`
 - [GitIM](products/gitim.md) — Git-native agent collaboration layer: channels, DMs, and Kanban cards stored as plain-text commits; three local binaries, no server. `local-first` `git-based`
@@ -92,7 +93,6 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Bloome](products/bloome.md) — Consumer hiring agent: explained job matches and application drafts on a cloud-only stack. `cloud` `freemium`
 - [COCO](products/coco.md) — Managed AI agent teams with open-source HxA Connect and Zylos ecosystem for human-agent collaboration. `cloud` `hybrid`
 - [Crewargo](products/crewargo.md) — Desktop workspace where one main agent, Argo, coordinates a team of specialist agents in a single chat thread. `local-first` `freemium`
-- [Cumora](products/cumora.md) — Desktop team chat with proactive agents, whisper rooms, and Convene decision sessions. `hybrid`
 - [Devin](products/devin.md) — End-to-end AI software engineer by Cognition: plans, codes, debugs, and deploys autonomously. `cloud`
 - [GenTeam](products/genteam.md) — Cloud-hosted AI-team workspace: humans and agents share channels and tasks; agents claim, assign, and write results back to the originating message. `cloud` `closed-source`
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
@@ -126,7 +126,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Cradle](products/cradle.md) | Unknown | Local-first | Active | Multi-agent orchestration desktop | 📄 |
 | [crewAI](products/crewai.md) | Open source (MIT) | Self-hosted | Active | Multi-agent automation framework | 📄 |
 | [Crewargo](products/crewargo.md) | Closed source | Local-first | Active (preview) | Desktop agent-team orchestration | 📄 |
-| [Cumora](products/cumora.md) | Closed source | Hybrid | Active (preview) | Chat collaboration | 📄 |
+| [Cumora](products/cumora.md) | Open source (MIT) | Hybrid | Active | Cross-platform chat with peer agents and BYOA brains | 📄 |
 | [Devin](products/devin.md) | Closed source | Cloud | Active | AI software engineer | 📄 |
 | [Edict](products/edict.md) | Open source (MIT) | Self-hosted | Active | Imperial governance multi-agent orchestration | 📄 |
 | [First-Tree](products/first-tree.md) | Open source (Apache-2.0) | Self-hosted | Active | Context-grounded multi-agent workspace | 📄 |
