@@ -83,6 +83,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - [Tutti](products/tutti.md) — Real-time shared workspace where multiple AI agents share context, files, apps, and tasks. `local-first` `open-source`
 - [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
+- [YYLO](products/yylo.md) — Command-line orchestrator for coding agents: typed task lifecycle, risk-based review gates, and receipt-backed changes across per-task git worktrees. `local-first` `git-based` `open-source`
 - [Zano](products/zano.md) — Persistent Claude Code agents in chat channels with local bridge and task board. `hybrid` `open-source`
 - [Zylos Zalo](products/zylos-zalo.md) — Zalo Bot Platform channel for the Zylos agent runtime: dual-mode delivery, DM/group access control, and media forwarding. `self-hosted` `open-source`
 
@@ -171,6 +172,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Vibemux](products/vibemux.md) | Closed source | Hybrid | Active | AI coding delivery platform | 📄 |
 | [WenzAgent](products/wenzagent.md) | Open source (Apache-2.0) | Self-hosted | Active | Dart agent framework with LAN RPC | 📄 |
 | [WorkBuddy](products/workbuddy.md) | Closed source | Local-first | Active | AI office automation / multi-agent workspace | 📄 |
+| [YYLO](products/yylo.md) | Open source (MIT) | Local-first | Active | Coding-agent orchestration CLI with typed task/merge lifecycle | 📄 |
 | [Zano](products/zano.md) | Open source (MIT) | Hybrid | Active | Persistent Claude Code agents in chat | 📄 |
 | [Zylos Zalo](products/zylos-zalo.md) | Open source (MIT) | Self-hosted | Active | Zalo channel for Zylos agent runtime | 📄 |
 
