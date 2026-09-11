@@ -76,6 +76,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [OpenMausBot](products/openmausbot.md) — Local-first macOS chat app for BYO CLI agents, with one-hop peer delegation through `ask_bot`. `local-first` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
 - [Orca](products/orca.md) — AI Development Environment for a fleet of parallel coding agents: run Codex, Claude Code, OpenCode, Pi (and ~30 other CLIs) side-by-side, each in its own worktree, with fan-out prompt, mobile companion, and SSH worktrees. `local-first` `open-source`
+- [Orkas](products/orkas.md) — Open-source, local-first desktop AI workforce coordinated by a Commander through one chat. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [PI Messenger](products/pi-messenger.md) — Multi-agent communication extension for Pi coding agent with file-based mesh, crew orchestration, and interactive overlay. `local-first` `open-source`
 - [QM](products/qm.md) — Multiplayer agent harness for work: scoped personal and channel agents, agent-to-agent handoff, and shared skills. `self-hosted` `open-source`
@@ -159,6 +160,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [OpenMausBot](products/openmausbot.md) | Open source (MIT) | Local-first | Early / Active | Chat workspace with one-hop peer delegation | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
 | [Orca](products/orca.md) | Open source (MIT) | Local-first | Active | Fleet-of-parallel-agents ADE with fan-out worktrees | 📄 |
+| [Orkas](products/orkas.md) | Open source (MIT) | Local-first | Active | Commander-coordinated desktop AI workforce | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
 | [QM](products/qm.md) | Open source (MIT) | Self-hosted | Active | Multiplayer agent harness with scoped agents | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
