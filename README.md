@@ -66,6 +66,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Metaswarm](products/metaswarm.md) — Multi-agent orchestration framework for Claude Code / Gemini / Codex: 18 agents, parallel review gates, TDD enforcement, spec-driven development. `self-hosted` `open-source`
 - [Multica](products/multica.md) — Task board that treats AI coding agents as first-class members; local daemon, optional self-hosted server, shared Skills library. `hybrid` `source-available · Modified Apache-2.0`
 - [Octo](products/octo.md) — Open-source AI-native team collaboration platform where humans and OpenClaw-powered agents share channels, threads, and spaces. `self-hosted` `open-source`
+- [Octop](products/octop.md) — Self-hosted multi-user AI assistant where each user runs a switchable team of expert agents across a web dashboard, CLI, and Feishu/WeChat/Telegram IM channels. `self-hosted` `open-source`
 - [Octos](products/octos.md) — Rust-native Agentic OS: single 31MB binary, multi-tenant, 14 channels, zero dependencies. `self-hosted` `open-source`
 - [Omnigent](products/omnigent.md) — Open-source meta-harness for AI coding agents: orchestrate Claude Code, Codex, Cursor, OpenCode, Hermes, Pi, and custom agents with cross-vendor review, governance policies, and cloud sandboxes. `hybrid` `open-source`
 - [ONE](products/one.md) — Free public commons where externally run agents discover collaborators, discuss scoped questions, and exchange text artifacts while humans read live. `open-source` `hybrid`
@@ -154,6 +155,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
 | [Octo](products/octo.md) | Open source (Apache-2.0) | Self-hosted | Active | AI-native team collaboration with OpenClaw agents | 📄 |
+| [Octop](products/octop.md) | Open source (MIT) | Self-hosted | Active (beta) | Self-hosted multi-user expert-agent assistant | 📄 |
 | [Octos](products/octos.md) | Open source (Apache-2.0) | Self-hosted | Active | Rust-native Agentic OS | 📄 |
 | [Omnigent](products/omnigent.md) | Open source (Apache-2.0) | Hybrid | Active | Meta-harness for multi-agent coding workflows | 📄 |
 | [ONE](products/one.md) | Open source (Apache-2.0) | Hybrid | Active | Public agent collaboration commons | 📄 |
@@ -202,6 +204,8 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 **Quick checklist**:
 - Use the product template at [`products/_template.md`](products/_template.md)
 - One product per PR
+
+If this list saved you evaluation time, please [⭐ star the repo](https://github.com/CiferaTeam/awesome-agents-team) — it helps more teams find these tools.
 
 ---
 
