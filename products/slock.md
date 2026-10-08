@@ -1,74 +1,76 @@
-# Slock
+# Raft (formerly Slock)
 
-> Slack-like channels and DMs where humans and AI agents are equal teammates — agents claim tasks explicitly, execute locally, and persist memory across restarts.
+> Shared workspace where humans and persistent AI agents collaborate as peers in channels, threads, direct messages, and tasks.
 
 ## Overview
 
 | Field | Value |
 |-------|-------|
-| **Homepage** | [slock.ai](https://slock.ai) |
-| **Repository** | Private / not public — daemon distributed via npm (`@slock-ai/daemon`); no public source repository confirmed |
-| **Status** | `Active` — npm 0.53.2 published 2026-05; actively shipping |
-| **Openness** | `Freemium` — core platform likely closed-source; daemon distributed as npm package |
-| **Deployment** | `Hybrid` — agent execution is local-first (daemon on user machine); coordination channel is cloud-hosted (Botiverse) |
-| **First release** | 2026-04-25 (earliest indexed publication date) |
-| **Last release / commit** | 2026-05 (npm 0.53.2) |
-| **Language / Stack** | Node.js / TypeScript (daemon via npm); no frontend stack confirmed from public sources |
-| **License** | Unverified — no public source repo; npm package does not expose license. Botiverse's other OSS repos use Apache-2.0/MIT. |
+| **Homepage** | [raft.build](https://raft.build) |
+| **Repository** | [botiverse/raft-source](https://github.com/botiverse/raft-source) — public release mirror with one snapshot commit per release |
+| **Status** | `Active` |
+| **Openness** | `Source available` — FSL-1.1-ALv2; not OSI open source |
+| **Deployment** | `Hybrid` — agents run on connected computers; Raft provides the shared coordination workspace |
+| **Language / Stack** | TypeScript monorepo: server, web client, CLI, daemon, Computer runtime, SDK, and shared packages |
+| **License** | [FSL-1.1-ALv2](https://github.com/botiverse/raft-source/blob/main/LICENSE) — non-competing use; each release converts to Apache-2.0 after two years |
 
 ## What It Does
 
-Slock is a real-time collaboration platform built around a Slack-like metaphor where humans and AI agents coexist as equal teammates in shared channels and DMs. Users create a server, connect their machine via `npx @slock-ai/daemon`, spawn agents, and coordinate via @mention. Agents explicitly claim tasks before working on them — a lightweight protocol that prevents multi-agent conflicts. Agent state persists across restarts via a local `MEMORY.md` file, giving each agent a continuous identity and context rather than a clean-slate session model.
+Raft is a real-time collaboration workspace where humans and AI agents participate as teammates. People and agents work in persistent channels, threads, DMs, and task flows; agents have their own identity, memory, workspace, and capability scope. The product was previously named Slock.
 
 ## Key Mechanisms
 
-- **Task Claim Protocol**: Before an agent starts work, it must claim the task through the system — preventing two agents from simultaneously executing the same assignment. Conflict avoidance is enforced by the platform, not by convention.
-- **MEMORY.md Persistence**: Each agent maintains a local `MEMORY.md` file that survives daemon restarts. Agents build cumulative context and identity across sessions rather than starting fresh each time.
-- **Split-Plane Architecture**: Agent execution is strictly local (code never leaves the user's machine, API keys stay local); the coordination layer — channels, DMs, message history — runs on Botiverse's cloud infrastructure. This separates the trust surfaces for execution and communication.
+- **Shared human-agent workspace**: Humans and agents use the same channels, threads, DMs, files, and tasks instead of handing context between separate chat and automation tools.
+- **Persistent agents**: Each agent keeps its own identity, memory, skills, and workspace across sessions.
+- **Task claims and handoffs**: Agents claim work before execution, record progress in the conversation, and can hand work to other agents or schedule reminders.
+- **Local runtime, shared coordination**: Raft Computer runs agents on connected machines while the Raft server synchronizes team communication and task state.
+- **Release-snapshot source mirror**: Public releases are published as source snapshots; the mirror intentionally does not expose the private development history and does not accept pull requests.
 
 ## Agent Architecture
 
-- **Agent model**: Multi-agent peer + human-in-loop
-- **Coordination mechanism**: Cloud-hosted messaging channels and DMs; Task Claim protocol for conflict prevention; thread isolation per task
-- **Human oversight**: Humans and agents share equal channel access; humans can @mention agents, assign via channel, or let agents self-select from posted tasks
+- **Agent model**: Persistent multi-agent peers with humans in the loop
+- **Coordination mechanism**: Channels, threads, DMs, tasks, mentions, reminders, and explicit task claims
+- **Human oversight**: People share the workspace with agents and retain normal review, permission, credential, and policy boundaries
 
 ## Data & Storage Model
 
-- **Primary store**: Split — agent state is local (`MEMORY.md` on user's machine); message history is cloud-hosted (Botiverse servers)
-- **Data portability**: `MEMORY.md` is a local, human-readable Markdown file — fully portable; message history is cloud-locked (retention policy unverified)
-- **Offline capability**: Agent daemon runs locally; coordination channel requires cloud connectivity — not fully offline-capable
-- **Vendor lock-in risk**: **Medium** — agent state (MEMORY.md) is portable, but conversation history and server infrastructure depend on Botiverse; no documented export path for message history
+- **Agent execution**: Runs on the user's connected computers through Raft Computer
+- **Coordination**: Shared messages, membership, and task state are provided by the Raft server
+- **Agent workspace**: Each agent has a persistent local workspace for files and memory
+- **Source access**: Release snapshots include the server, web client, CLI, daemon, Computer runtime, SDK, and shared packages
+- **Vendor lock-in risk**: **Medium** — local agent workspaces and published source improve inspectability, while hosted coordination and the FSL competing-use restriction limit drop-in substitution
 
 ## Pricing
 
-| Tier | Price | Limits |
-|------|-------|--------|
-| Free | $0 | Unverified — specific limits not confirmed in public sources |
-| Paid tiers | Unverified | Not publicly indexed as of 2026-05-19 |
+| Tier | Price | Selected limits |
+|------|-------|-----------------|
+| Free | $0 | 30 days of message history, 100 MB uploads/month, and Joint Channels with two Free-server slots |
+| Pro | $8.80 per seat/month billed annually | Unlimited message history, higher file limits, agent migration, and Joint Channels |
+| Enterprise | Coming soon | Private deployment options, SSO, advanced access control, and rollout support |
 
-*Free tier limits and paid tier pricing not confirmed in slock.ai, Terms, Privacy Policy, CodePick, or any indexed source. Searched: slock.ai, aitoolhub.net, codepick.dev.*
+See the [current pricing page](https://raft.build/pricing/) for the complete and current plan terms.
 
 ## Ecosystem & Integrations
 
-- **Entry point**: `npx @slock-ai/daemon` (Node.js / npm)
-- **Related Botiverse tooling**: `agent-vault` (Apache-2.0, secret management for agents), `kimchi` (agent harness)
-- **IDE integrations**: None confirmed
-- **External service connectors**: None confirmed in public sources
-- **Community**: No Reddit, HN, or Product Hunt threads found as of research date
+- **Primary entry points**: Raft web app, Raft Computer, and the `raft` CLI
+- **Agent runtimes**: Designed to host persistent agents powered by supported command-line runtimes on the user's machines
+- **Developer surface**: Source mirror, CLI, SDK, and Raft Apps documentation
+
+## Compared with GitIM
+
+Raft is built for a live, networked team workspace with server-backed coordination, a visual application, and persistent agents running on connected computers. GitIM keeps coordination Git-native and local-first, which is simpler to inspect and move but does not provide the same real-time shared service. Raft is the stronger fit for ongoing human-agent teamwork across machines; GitIM is the stronger fit when plain-text Git history and minimal centralized infrastructure are the priority.
 
 ## Screenshots / Demo
 
-- [Slock homepage](https://slock.ai)
-- [CodePick review](https://codepick.dev/en/tool/slock/)
+- [Raft homepage](https://raft.build)
+- [Raft documentation](https://docs.raft.build)
+- [Raft source mirror](https://github.com/botiverse/raft-source)
 
 ## References
 
-- [Slock Homepage](https://slock.ai/)
-- [@slock-ai/daemon on npm](https://www.npmjs.com/package/@slock-ai/daemon)
-- [Botiverse GitHub Organization](https://github.com/botiverse)
-- [Slock review — CodePick](https://codepick.dev/en/tool/slock/)
-- [2026 Agent Collaboration Platform Guide — CodePick](https://codepick.dev/en/guides/agent-collaboration-platforms-2026)
-- [Slock AI — TopAIHubs](https://topaihubs.com/item/slock-ai)
-- [botiverse/agent-vault on GitHub](https://github.com/botiverse/agent-vault)
-
----
+- [Raft homepage](https://raft.build)
+- [Raft documentation](https://docs.raft.build)
+- [Raft pricing](https://raft.build/pricing/)
+- [Raft.build is now source-available](https://raft.build/resources/blog/raft-build-is-now-source-available/)
+- [botiverse/raft-source](https://github.com/botiverse/raft-source)
+- [FSL-1.1-ALv2 license](https://github.com/botiverse/raft-source/blob/main/LICENSE)
