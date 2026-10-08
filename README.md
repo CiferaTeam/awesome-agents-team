@@ -81,6 +81,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
 - [PI Messenger](products/pi-messenger.md) — Multi-agent communication extension for Pi coding agent with file-based mesh, crew orchestration, and interactive overlay. `local-first` `open-source`
 - [QM](products/qm.md) — Multiplayer agent harness for work: scoped personal and channel agents, agent-to-agent handoff, and shared skills. `self-hosted` `open-source`
+- [Raft (formerly Slock)](products/slock.md) — Shared workspace where humans and persistent AI agents collaborate in channels, threads, DMs, and tasks. `hybrid` `source-available · FSL-1.1-ALv2`
 - [RunFusion](products/runfusion.md) — Open-source multi-node agent orchestrator with auto-specification and git worktree isolation. `hybrid` `open-source`
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - **[Tale](https://tale.dev)** — Project workspace for teams and AI agents with persistent sandboxes and task-result review. `self-hosted` `open-source`
@@ -106,7 +107,6 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [MiniMax Agent](products/minimax-agent.md) — AI-native workspace with desktop cowork, expert agents, and autonomous computer use for building apps and automating workflows. `hybrid` `freemium`
 - [Moxt](products/moxt.md) — Agent-native workspace with persistent personal AI assistants, shared AI teammates, and Slack/Feishu integration. `cloud` `freemium`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
-- [Slock](products/slock.md) — Slack-like channels and DMs: agents claim tasks locally, coordinate through Botiverse cloud. `hybrid` `freemium`
 - [super.engineering](products/super-engineering.md) — Native macOS control plane for parallel coding agents and cross-provider team orchestration. `local-first` `closed-source`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
@@ -167,8 +167,8 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Orkas](products/orkas.md) | Open source (MIT) | Local-first | Active | Commander-coordinated desktop AI workforce | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
 | [QM](products/qm.md) | Open source (MIT) | Self-hosted | Active | Multiplayer agent harness with scoped agents | 📄 |
+| [Raft (formerly Slock)](products/slock.md) | Source available (FSL-1.1-ALv2) | Hybrid | Active | Human-agent team workspace | 📄 |
 | [RunFusion](products/runfusion.md) | Open source (MIT) | Hybrid | Active | Multi-node agent orchestrator | 📄 |
-| [Slock](products/slock.md) | Closed source | Hybrid | Active | Chat collaboration | 📄 |
 | [super.engineering](products/super-engineering.md) | Closed source | Local-first | Active (nightly) | Native macOS multi-agent orchestration | 📄 |
 | [Syncless](products/syncless.md) | Closed source | Cloud | Active | Cross-device agent orchestration | 📄 |
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
