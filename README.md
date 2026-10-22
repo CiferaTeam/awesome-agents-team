@@ -77,6 +77,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [OpenHanako](products/openhanako.md) — Personal AI agent desktop app with memory, personality, and multi-agent collaboration for non-coders. `local-first` `open-source`
 - [OpenMausBot](products/openmausbot.md) — Local-first macOS chat app for BYO CLI agents, with one-hop peer delegation through `ask_bot`. `local-first` `open-source`
 - [OpenTeams](products/openteams.md) — Multi-agent collaboration workspace that brings AI coding agents into one shared session. `local-first` `open-source`
+- [Orbi](products/orbi.md) — Labeled GitHub Issues go to an implementer agent in an isolated worktree, then a separate reviewer session; only the reviewed head merges. `self-hosted` `cloud` `git-based` `open-source`
 - [Orca](products/orca.md) — AI Development Environment for a fleet of parallel coding agents: run Codex, Claude Code, OpenCode, Pi (and ~30 other CLIs) side-by-side, each in its own worktree, with fan-out prompt, mobile companion, and SSH worktrees. `local-first` `open-source`
 - [Orkas](products/orkas.md) — Open-source, local-first desktop AI workforce coordinated by a Commander through one chat. `local-first` `open-source`
 - [Paperclip](products/paperclip.md) — Open-source orchestration for AI agent companies: org charts, budgets, governance, and goal alignment for any agent runtime. `self-hosted` `open-source`
@@ -165,6 +166,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [OpenClaw](products/openclaw.md) | Open source (MIT) | Self-hosted | Active | Autonomous system-level agent framework | 📄 |
 | [OpenMausBot](products/openmausbot.md) | Open source (MIT) | Local-first | Early / Active | Chat workspace with one-hop peer delegation | 📄 |
 | [OpenTeams](products/openteams.md) | Open source (Apache-2.0) | Local-first | Active | Multi-agent collaboration | 📄 |
+| [Orbi](products/orbi.md) | Open source (AGPL-3.0) | Self-hosted / Cloud | Active | Issue-to-merged-PR delivery with separate implementer and reviewer agents | 📄 |
 | [Orca](products/orca.md) | Open source (MIT) | Local-first | Active | Fleet-of-parallel-agents ADE with fan-out worktrees | 📄 |
 | [Orkas](products/orkas.md) | Open source (MIT) | Local-first | Active | Commander-coordinated desktop AI workforce | 📄 |
 | [Paperclip](products/paperclip.md) | Open source (MIT) | Self-hosted | Active | AI agent company orchestration | 📄 |
