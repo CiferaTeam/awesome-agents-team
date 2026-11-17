@@ -60,6 +60,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [HiClaw](products/hiclaw.md) — Enterprise-grade multi-agent collaboration via Matrix rooms: Manager coordinates Workers with human visibility. `self-hosted` `open-source`
 - [Hive](products/hive.md) — Multi-agent harness for production AI with auto-generated execution graphs and self-healing. `self-hosted` `open-source`
 - [Hivekeep](products/hivekeep.md) — Self-hosted platform running a team of specialized AI agents with persistent memory, a web UI, and self-built tools; reachable over Telegram, Slack, Discord, and Matrix. `self-hosted` `open-source`
+- [kwant](products/kwant.md) — Self-hosted team of named AI bots in one Rust binary: @mention handoffs, separate spaces, and tasks marked Verified only when kwant runs the check itself. `self-hosted` `open-source`
 - [Lantor](products/lantor.md) — Local-first AI agent workspace for Codex and Claude. `local-first`
 - [Lingtai](products/lingtai.md) — Unix-style Agent OS: agents live in the filesystem and communicate by mailbox. `local-first` `open-source`
 - [LobeHub](products/lobehub.md) — Chief Agent Operator that organizes agents into 7×24 operations. `hybrid` `source-available`
@@ -148,6 +149,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [HiClaw](products/hiclaw.md) | Open source (Apache-2.0) | Self-hosted | Active | Enterprise multi-agent collaboration | 📄 |
 | [Hive](products/hive.md) | Open source (Apache-2.0) | Self-hosted | Active | Multi-agent production harness | 📄 |
 | [Hivekeep](products/hivekeep.md) | Open source (MIT) | Self-hosted | Active | Specialized AI agent team with memory and channels | 📄 |
+| [kwant](products/kwant.md) | Open source (AGPL-3.0) | Self-hosted | Active | Self-hosted bot team with @mention handoffs and kwant-run verification | 📄 |
 | [Lantor](products/lantor.md) | Open source (Apache-2.0) | Local-first | Active | Local AI agent workspace | 📄 |
 | [Lingtai](products/lingtai.md) | Open source (MIT) | Local-first | Active | Unix-style Agent OS | 📄 |
 | [Loop](products/loop.md) | Closed source | Cloud | Active | Team agent collaboration workspace | 📄 |
