@@ -107,6 +107,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Helio](products/helio.md) — AI-native workspace: named teammates share channels, tickets, and approval-gated shipping workflows. `cloud`
 - [Loop](products/loop.md) — Team-oriented Agent collaboration workspace with scoped agent wake-up and PDCA-driven delivery. `cloud` `closed-source`
 - [Magestic AI](products/magestic-ai.md) — Managed custom AI employees built, hosted, and tuned for specific operational roles. `cloud`
+- [Mel](products/mel.md) — Multi-agent, multi-model AI terminal for coding: lead + worker agents in real panes, configurable approvals, BYOK. `local-first` `closed-source` `freemium`
 - [MiniMax Agent](products/minimax-agent.md) — AI-native workspace with desktop cowork, expert agents, and autonomous computer use for building apps and automating workflows. `hybrid` `freemium`
 - [Moxt](products/moxt.md) — Agent-native workspace with persistent personal AI assistants, shared AI teammates, and Slack/Feishu integration. `cloud` `freemium`
 - [Niuma AI](products/niuma.md) — Local-first AI workstation: documents, task orchestration, and multi-model runs with data on-device by default. `local-first`
@@ -155,6 +156,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Loop](products/loop.md) | Closed source | Cloud | Active | Team agent collaboration workspace | 📄 |
 | [LobeHub](products/lobehub.md) | Source available (LobeHub Community License) | Hybrid | Active | Chief Agent Operator | 📄 |
 | [Magestic AI](products/magestic-ai.md) | Closed source | Cloud | Active | Managed AI employees | 📄 |
+| [Mel](products/mel.md) | Closed source | Local-first | Active | Multi-agent AI coding terminal | 📄 |
 | [Metaswarm](products/metaswarm.md) | Open source (MIT) | Self-hosted | Active | Multi-agent orchestration with quality gates | 📄 |
 | [Multica](products/multica.md) | Source available (Modified Apache-2.0) | Hybrid | Active | Project & task management | 📄 |
 | [Niuma AI](products/niuma.md) | Closed source | Local-first | Active | Local productivity & orchestration | 📄 |
