@@ -114,6 +114,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [super.engineering](products/super-engineering.md) — Native macOS control plane for parallel coding agents and cross-provider team orchestration. `local-first` `closed-source`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
+- [TheoremOS](products/theoremos.md) — Cloud workbench where researchers guide AI agents through proof plans and verify the results in Lean 4. `cloud` `closed-source`
 - [Tokenrip](products/tokenrip.md) — Hosted shared files, tasks and decisions across agents running in their existing tools. `cloud` `freemium`
 - [Todos](products/todos-dev.md) — The product workspace for small teams and agents. `hybrid` `freemium`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
@@ -183,6 +184,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tale](products/tale.md) | Open source (MIT) | Self-hosted or Cloud | Active | Project tasks, sandboxed agents, and deliverable review | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
+| [TheoremOS](products/theoremos.md) | Closed source | Cloud | Active (research preview) | Collaborative formal mathematics in Lean 4 | 📄 |
 | [Tokenrip](products/tokenrip.md) | Closed-source service; MIT CLI | Cloud-hosted | Active | Shared project records across existing agent hosts | 📄 |
 | [Todos](products/todos-dev.md) | Closed source | Hybrid | Active | Product workspace for small teams and agents | 📄 |
 | [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |
