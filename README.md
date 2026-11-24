@@ -89,6 +89,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - **[Tale](https://tale.dev)** — Project workspace for teams and AI agents with persistent sandboxes and task-result review. `self-hosted` `open-source`
   > Reusable project agents with explicit equipment and reviewable deliverables. [📄 Deep dive](products/tale.md)
+- [TheoremOS](products/theoremos.md) — Browser workbench and CLI where researchers guide AI agents through proof plans and verify results in Lean 4 + Mathlib (`WestlakeNLP`). `cloud` `self-hosted` `open-source`
 - [Tutti](products/tutti.md) — Real-time shared workspace where multiple AI agents share context, files, apps, and tasks. `local-first` `open-source`
 - [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
 - [YYLO](products/yylo.md) — Command-line orchestrator for coding agents: typed task lifecycle, risk-based review gates, and receipt-backed changes across per-task git worktrees. `local-first` `git-based` `open-source`
@@ -114,7 +115,6 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [super.engineering](products/super-engineering.md) — Native macOS control plane for parallel coding agents and cross-provider team orchestration. `local-first` `closed-source`
 - [Syncless](products/syncless.md) — Cross-device agent orchestration: `@` any browser, MacBook, server, or teammate and let the agent carry context across boundaries. `cloud`
 - [Tanka](products/tanka.md) — AI-powered collaboration platform with persistent long-term memory across connected communication tools. `cloud`
-- [TheoremOS](products/theoremos.md) — Cloud workbench where researchers guide AI agents through proof plans and verify the results in Lean 4. `cloud` `closed-source`
 - [Tokenrip](products/tokenrip.md) — Hosted shared files, tasks and decisions across agents running in their existing tools. `cloud` `freemium`
 - [Todos](products/todos-dev.md) — The product workspace for small teams and agents. `hybrid` `freemium`
 - [Vibemux](products/vibemux.md) — AI coding delivery platform that routes tasks to real workstations and returns reviewable branches. `hybrid`
@@ -184,7 +184,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tale](products/tale.md) | Open source (MIT) | Self-hosted or Cloud | Active | Project tasks, sandboxed agents, and deliverable review | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
-| [TheoremOS](products/theoremos.md) | Closed source | Cloud | Active (research preview) | Collaborative formal mathematics in Lean 4 | 📄 |
+| [TheoremOS](products/theoremos.md) | Open source (AGPL-3.0-only) | Cloud / Self-hosted | Active (research preview) | Collaborative formal mathematics in Lean 4 | 📄 |
 | [Tokenrip](products/tokenrip.md) | Closed-source service; MIT CLI | Cloud-hosted | Active | Shared project records across existing agent hosts | 📄 |
 | [Todos](products/todos-dev.md) | Closed source | Hybrid | Active | Product workspace for small teams and agents | 📄 |
 | [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |

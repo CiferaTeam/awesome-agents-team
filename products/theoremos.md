@@ -1,20 +1,20 @@
 # TheoremOS
 
-> Browser workbench where researchers guide AI agents through formal proofs in Lean 4 with Mathlib.
+> Open-source browser workbench and CLI from [WestlakeNLP](https://westlakenlp.com/) (Westlake University), where researchers guide AI agents through formal proofs in Lean 4 with Mathlib.
 
 ## Overview
 
 | Field | Value |
 |-------|-------|
 | **Homepage** | [theoremos.top](https://theoremos.top/en/) |
-| **Repository** | [HuggingMath/TheoremOS](https://github.com/HuggingMath/TheoremOS) (public documentation, proof records, and verification materials) |
+| **Repository** | [HuggingMath/theorem-os](https://github.com/HuggingMath/theorem-os) (workbench & CLI) · [HuggingMath/TheoremOS](https://github.com/HuggingMath/TheoremOS) (website, proof archive & verification kits) |
 | **Status** | `Active` (research preview) |
-| **Openness** | `Closed source` runtime |
-| **Deployment** | `Cloud-hosted` (no local Lean installation required for the browser preview) |
-| **First release** | 2026-11 (public research preview) |
-| **Last release / commit** | 2026-11 (public repository) |
-| **Language / Stack** | Lean 4 and Mathlib for formal verification. Hosted runtime stack unknown. |
-| **License** | Proprietary runtime. Public artifacts retain their individual terms. |
+| **Openness** | `Open source (AGPL-3.0-only)` — source-available workbench and CLI; hosted preview free with BYOK |
+| **Deployment** | `Cloud-hosted` (browser preview, no local Lean setup required) or `Self-hosted` (Linux CLI & Docker Compose) |
+| **First release** | 2026-11 (public research preview & AGPL-3.0-only release) |
+| **Last release / commit** | 2026-11 (`HuggingMath/theorem-os` & `HuggingMath/TheoremOS`) |
+| **Language / Stack** | TypeScript (Bun / Node.js), Lean 4, Mathlib, Docker |
+| **License** | AGPL-3.0-only (workbench & CLI); archived proofs and third-party components retain their documented terms |
 
 ## What It Does
 
@@ -37,21 +37,22 @@ A researcher starts a task with a mathematical problem in prose or LaTeX, or a s
 
 - **Primary store.** The hosted workbench retains run records, saved source versions, and check results.
 - **Data portability.** Researchers can download the Lean source and verification report separately. The JSON archive contains saved run data, including source versions, agent actions, and checks. Importing the archive creates a draft from the saved input and settings.
-- **Offline capability.** Downloadable verification kits include Lean files, pinned project settings, and instructions for repeating a check locally. Once the Lean dependencies are available, the check runs without a model call.
-- **Vendor lock-in risk.** Moderate. Agent coordination depends on the hosted workbench. The exported proof files use standard Lean tooling.
+- **Offline capability.** Downloadable verification kits and the CLI proof replay run locally without model API calls once Lean dependencies are available.
+- **Vendor lock-in risk.** **Low** — workbench and CLI are open source (`AGPL-3.0-only`), support self-hosted Docker Compose deployment with any supported model provider, and export standard Lean tooling and JSON archives.
 
 ## Pricing
 
 | Tier | Price | Limits |
 |------|-------|--------|
-| Research preview | $0 platform fee | Apply for access to run new tasks. Bring a key from a supported model provider and pay that provider for inference. |
+| Open source / self-hosted | $0 | Self-host via Bun/Node CLI or Docker Compose (`AGPL-3.0-only`); bring your own model API key |
+| Hosted research preview | $0 platform fee | Apply for allowlist access on the hosted preview; bring your own Responses API key and pay provider for inference |
 
 ## Ecosystem & Integrations
 
 - **IDE integrations.** Unknown.
-- **External services.** The workbench connects to selected model providers through the Responses API.
-- **API / extensibility.** CLI collaboration is available by arrangement for multi-file Lake projects, custom toolchains, or research on strategies and scheduling.
-- **Community.** [GitHub Issues](https://github.com/HuggingMath/TheoremOS/issues).
+- **External services.** Connects to supported model providers via the Responses API.
+- **API / extensibility.** Exposes five replaceable TypeScript solver modules (`M1`–`M5`: execution sandbox, Lean evidence retrieval, scheduling, context assembly, and role allocation) and the local Bun CLI (`bun run math`) in [`HuggingMath/theorem-os`](https://github.com/HuggingMath/theorem-os).
+- **Community.** [HuggingMath/TheoremOS Issues](https://github.com/HuggingMath/TheoremOS/issues) · [WestlakeNLP Lab](https://westlakenlp.com/).
 
 ## vs GitIM
 
@@ -67,8 +68,11 @@ GitIM stores messages and task cards as Git commits. TheoremOS gives the researc
 
 ## References
 
-- [Capabilities and access](https://github.com/HuggingMath/TheoremOS/blob/61d105500484327dfa85ff69849ab7bd1b2ec69b/docs/CAPABILITIES.md)
-- [Workbench tutorial and export instructions](https://github.com/HuggingMath/TheoremOS/blob/61d105500484327dfa85ff69849ab7bd1b2ec69b/docs/GETTING-STARTED.md)
-- [Local verification guide](https://raw.githubusercontent.com/HuggingMath/TheoremOS/61d105500484327dfa85ff69849ab7bd1b2ec69b/docs/VERIFY.md)
+- [TheoremOS workbench & CLI repository (AGPL-3.0-only)](https://github.com/HuggingMath/theorem-os)
+- [TheoremOS website & proof archive repository](https://github.com/HuggingMath/TheoremOS)
+- [WestlakeNLP Lab (Westlake University)](https://westlakenlp.com/)
+- [Capabilities and access](https://github.com/HuggingMath/TheoremOS/blob/main/docs/CAPABILITIES.md)
+- [Workbench tutorial and export instructions](https://github.com/HuggingMath/TheoremOS/blob/main/docs/GETTING-STARTED.md)
+- [Local verification guide](https://github.com/HuggingMath/TheoremOS/blob/main/docs/VERIFY.md)
 - [Research preview release](https://github.com/HuggingMath/TheoremOS/releases/tag/v0.1.0-preview.1)
-- [Public materials and licensing](https://github.com/HuggingMath/TheoremOS/blob/61d105500484327dfa85ff69849ab7bd1b2ec69b/docs/PUBLIC-MATERIALS.md)
+- [Public materials and licensing](https://github.com/HuggingMath/TheoremOS/blob/main/docs/PUBLIC-MATERIALS.md)
