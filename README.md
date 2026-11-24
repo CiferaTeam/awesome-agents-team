@@ -89,6 +89,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 - [Synapse](products/synapse.md) — Self-hosted AI workspace with shareable AI teammates and governed plugin access. `self-hosted` `open-source`
 - **[Tale](https://tale.dev)** — Project workspace for teams and AI agents with persistent sandboxes and task-result review. `self-hosted` `open-source`
   > Reusable project agents with explicit equipment and reviewable deliverables. [📄 Deep dive](products/tale.md)
+- [TheoremOS](products/theoremos.md) — Browser workbench and CLI where researchers guide AI agents through proof plans and verify results in Lean 4 + Mathlib (`WestlakeNLP`). `cloud` `self-hosted` `open-source`
 - [Tutti](products/tutti.md) — Real-time shared workspace where multiple AI agents share context, files, apps, and tasks. `local-first` `open-source`
 - [WenzAgent](products/wenzagent.md) — Pure Dart AI agent framework with LAN discovery, RPC cross-device calling, and extensible skill system. `self-hosted` `open-source`
 - [YYLO](products/yylo.md) — Command-line orchestrator for coding agents: typed task lifecycle, risk-based review gates, and receipt-backed changes across per-task git worktrees. `local-first` `git-based` `open-source`
@@ -183,6 +184,7 @@ Products link to a dedicated deep-dive page in [`products/`](products/).
 | [Synapse](products/synapse.md) | Open source (Apache-2.0) | Self-hosted | Active | Self-hosted AI workspace | 📄 |
 | [Tale](products/tale.md) | Open source (MIT) | Self-hosted or Cloud | Active | Project tasks, sandboxed agents, and deliverable review | 📄 |
 | [Tanka](products/tanka.md) | Closed source | Cloud | Active | AI collaboration with long-term memory | 📄 |
+| [TheoremOS](products/theoremos.md) | Open source (AGPL-3.0-only) | Cloud / Self-hosted | Active (research preview) | Collaborative formal mathematics in Lean 4 | 📄 |
 | [Tokenrip](products/tokenrip.md) | Closed-source service; MIT CLI | Cloud-hosted | Active | Shared project records across existing agent hosts | 📄 |
 | [Todos](products/todos-dev.md) | Closed source | Hybrid | Active | Product workspace for small teams and agents | 📄 |
 | [Tutti](products/tutti.md) | Open source (Apache-2.0) | Local-first | Active | Real-time shared workspace for multiple agents | 📄 |
